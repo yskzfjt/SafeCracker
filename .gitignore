@@ -1,0 +1,8 @@
+Library
+Temp
+WebGL
+*.pidb
+*.unityproj
+*.sln
+*.userprefs
+*.*~

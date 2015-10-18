@@ -1,0 +1,455 @@
+using UnityEngine;
+using System.Collections;
+
+//このクラスをサーバーとクライアントで共有するイメージ。
+//サーバー側では常にバックアップを取って行く。
+public class GameStatus {
+    ////////////////////////////////////////////////////////////////////
+    //Singleton
+    ////////////////////////////////////////////////////////////////////
+    private static GameStatus instance = null;
+    public static GameStatus Instance {
+        get {
+            if( instance == null ) instance = new GameStatus();
+            return instance;
+        }
+    }
+
+    ////////////////////////////////////////////////////////////////////
+    //Constants
+    ////////////////////////////////////////////////////////////////////
+    //system status
+    public enum TRANSACTION { NONE, 
+	    WAIT_FOR_RESPONSE,	//waiting...
+	    RESPONSE_SUCCESS,	//succesfully processed.
+	    RESPONSE_ERROR,	//something was wrong. reference to GameStatus.message.
+	    MAX };
+    public enum PHASE { 
+	INIT,			//initialize.
+	    LOGIN,		//connect to server and new game starts automatically.
+	    NEW_GAME,		//clear digits and history...
+	    SELECT,		//selecting bet and 4 digits and push buttos.
+	    TRY,		//exec button pushed. waiting for server response.
+	    GIVE_UP,		//to new game starts.
+	    RESULT,		//result for each try. 
+	    FINALE,		//result for whole game. consumed maxTries times.
+	    WIN,		//WIN.
+	    ERROR,		//showing error dialog.
+	    LOGOUT,		//disconnect from server. closing page or quitting web browser or whatever.
+	    MAX };
+
+    //max tries
+    public readonly int maxTries = 7;
+
+    //max digits
+    public readonly int maxDigits = 4;
+
+    //bets
+    public readonly int[] bets = {10,20,30,40,50,60,70,80,90,100};
+
+    //version
+    public readonly string version = "0.0";
+
+    //common data for both client and server.
+    //Need to care about the coherence for yourself.
+    [System.Serializable] public class CommonData{
+	////////////////////////////////////////////////////////////////////
+	//version for CommonData.
+	////////////////////////////////////////////////////////////////////
+	public string version;
+
+	////////////////////////////////////////////////////////////////////
+	//User Info
+	////////////////////////////////////////////////////////////////////
+	//user ID.optional.
+	public string userID;
+
+	//seq and token. 
+	public string seq;
+	public string token;
+
+	//creditBalance
+	public int creditBalance;
+
+	//timestamp
+	public string timeStamp;
+
+
+	////////////////////////////////////////////////////////////////////
+	//Game Info
+	////////////////////////////////////////////////////////////////////
+	public PHASE phase = PHASE.INIT;
+	public PHASE oldPhase = PHASE.INIT;
+
+	//game no since login
+	public int gameCount = -1;
+
+	//try no since new game
+	public int tryCount = 0;
+
+	//input numbers
+	public int[,] digits = null;
+
+	//cracked numbers
+	public int[] crackedDigits = null;
+
+	//bet
+	public int betID = 0;
+	public int bet;
+
+	//reward
+	public int reward;
+
+	//auto or manual
+	public bool isAuto = false;
+
+    }
+
+    private CommonData data = null;
+
+    //cursor pos
+    public int cursorPos = 0;
+
+//     ////////////////////////////////////////////////////////////////////
+//     //User Info
+//     ////////////////////////////////////////////////////////////////////
+//     //user ID
+//     public string userID;
+
+//     //session ID
+//     public string sessionID;
+
+//     //creditBalance
+//     public int creditBalance;
+
+//     //timestamp
+//     public string timeStamp;
+
+//     ////////////////////////////////////////////////////////////////////
+//     //Game Info
+//     ////////////////////////////////////////////////////////////////////
+//     public PHASE phase = PHASE.INIT;
+//     public PHASE oldPhase = PHASE.INIT;
+
+//     //game no since login
+//     public int gameCount = -1;
+
+//     //challenge since new game
+//     public int tryCount = 0;
+
+//     //input numbers
+//     public int[,] digits = null;
+
+//     //cracked numbers
+//     public int[] crackedDigits = null;
+
+//     //bet
+//     public int betID = 0;
+//     public int bet;
+
+//     //reward
+//     public int reward;
+
+//     //auto or manual
+//     public bool isAuto = false;
+
+//     //cursor pos
+//     public int cursorPos = 0;
+
+    ////////////////////////////////////////////////////////////////////
+    //TRANSACTION
+    ////////////////////////////////////////////////////////////////////
+    private TRANSACTION transaction = TRANSACTION.NONE;
+    private bool isTransactionChanged;
+    public int phaseCounter;
+    public int phaseStatus;
+
+    private GameStatus(){
+// 	digits = new int[ maxTries, maxDigits ];
+// 	crackedDigits = new int[ maxDigits ];
+// 	ChangePhase( PHASE.INIT );
+// 	ResetBet();
+	NewCommonData();
+    }
+
+    ////////////////////////////////////////////////////////////////////
+    //Update
+    ////////////////////////////////////////////////////////////////////
+    public void Update(){
+	++phaseCounter;
+    }
+
+
+    ////////////////////////////////////////////////////////////////////
+    //Utility
+    ////////////////////////////////////////////////////////////////////
+
+    //New common data
+    private void NewCommonData(){
+	data = new CommonData();
+	data.version = version;
+	data.digits = new int[ maxTries, maxDigits ];
+	data.crackedDigits = new int[ maxDigits ];
+	ChangePhase( PHASE.INIT );
+	ResetBet();
+	ResetDigits();
+    }
+
+    //time stamp for transaction
+    public void SetTimeStamp(){
+	data.timeStamp = System.DateTime.Now.ToString("yyyyMMddHHmmss");
+    }
+
+    //Change Phase to p
+    public void ChangePhase( PHASE p ){
+	oldPhase = data.phase;
+	data.phase = p;
+	phaseCounter = 0;
+	phaseStatus = 0;
+	Debug.Log( "Change Phase From: " + oldPhase + " To: " + phase );
+    }
+
+    //if it is final try.
+    public bool IsFinalTry( ){
+	return data.tryCount == (maxTries-1);
+    }
+
+    //Bet more or less.
+    public bool IsBetAble(){
+	return ( data.phase == PHASE.SELECT && data.tryCount == 0 );
+    }
+    public bool UpBet(){
+	if( IsBetAble() && (bets.Length-1) > betID ){
+	    data.bet = bets[ ++betID ];
+	    return true;
+	}else{
+	    return false;
+	}
+    }
+    public bool DownBet(){
+	if( IsBetAble() && betID > 0 ){
+	    data.bet = bets[ --betID ];
+	    return true;
+	}else{
+	    return false;
+	}
+    }
+    public void ResetBet(){
+	betID = 0;
+	data.bet = bets[betID];
+    }
+
+    //phase query
+    public bool IsPhase( PHASE p ){
+	return data.phase == p;
+    }
+
+    //win query
+    public bool IsWin(){
+	for( int i=0; i<maxDigits; ++i ){
+	    if( data.crackedDigits[i] < 0 ) return false;
+	}
+	return true;
+    }
+
+    //Digits control
+    public bool IsValidDigit( int d ){
+	return ( d >=0 && d < 9 );
+    }
+    public int GetCrackedDigitsCount(){
+	int ret = 0;
+	for( int i=0; i<maxDigits; ++i ){
+	    if( data.crackedDigits[ i ] >= 0 ) ++ret;
+	}
+	return ret;
+    }
+
+    public void CrackAt( int no ){
+	if( !IsValidCursor(no) ) return;
+	if( !IsValidTry(tryCount) ) return;
+	data.crackedDigits[ no ] = data.digits[ tryCount, no ];
+    }
+
+    public int GetDigitAt( int no ){
+	if( !IsValidCursor(no) ) return -1;
+	if( !IsValidTry(tryCount) ) return -1;
+	return data.digits[ tryCount, no ];
+    }
+
+    public void SetDigitAt( int t, int c, int d ){
+	if( !IsValidCursor(c) ) return;
+	if( !IsValidTry(t) ) return;
+	if( !IsValidDigit(d) ) return;
+	data.digits[ t, c ] = d;
+    }
+
+    //returns -1 if it's not cracked yet
+    public int GetCrackedDigitAt( int no ){
+	if( !IsValidCursor(no) ) return -1;
+	return data.crackedDigit[ no ];
+    }
+
+    public bool IsDigitCrackedAt( int no ){
+	if( !IsValidCursor(no) ) return false;
+	return crackedDigits[no] >= 0;
+    }
+
+    public bool IsUniqueDigitAt( int no ){
+	if( tryCount == 0 ) return true;
+
+	int cur = GetDigit( no );
+	for( int i=0; i<tryCount; ++i ){
+	    if( digits[i, no ] == cur ) return false;
+	}
+	return true;
+    }
+
+    public void ResetDigitsAll(){
+	//clear history
+	for( int i=0; i<maxTries; ++i ){
+	    for( int j=0; j<maxDigits; ++j ){
+		data.digits[i,j] = -1;
+	    }
+	}
+	//clear crackedDigits
+	for( int i=0; i<maxDigits; ++i ) data.crackedDigits[i] = -1;
+    }
+
+    //Try Control.
+    public bool IsValidTry( int no ){
+	return (no >= 0 && no < maxTries );
+    }
+    public void StartNextTry(){
+	if( data.tryCount < (maxTries-1) ){
+	    ++data.tryCount;
+	    for( int i=0; i<maxDigits; ++i ){
+		if( data.crackedDigits[i] >= 0 ){
+		    data.digits[tryCount,i] = data.crackedDigits[i];
+		}
+	    }
+	    ResetCursor();
+	}
+    }
+
+    //Cursor control
+    public bool IsValidCursor( int no ){
+	return ( no >= 0 && no < maxDigits );
+    }
+    public void ResetCursor(){
+	cursorPos = -1;
+	IncCursor();
+    }
+    public void IncCursor(){
+	if( cursorPos >= maxDigits ) return;
+	for( ++cursorPos; cursorPos<maxDigits; ++cursorPos ){
+	    if( !IsDigitCracked( cursorPos ) ) break;
+	}
+    }
+    public void DecCursor(){
+	if( cursorPos <= 0 ) return;
+	for( --cursorPos; cursorPos>=0; --cursorPos ){
+	    if( !IsDigitCracked( cursorPos ) ) break;
+	}
+    }
+
+    ////////////////////////////////////////////////////////////////////
+    //Login Transaction
+    ////////////////////////////////////////////////////////////////////
+    public bool LoginTransaction(){
+	//@todo dummy;
+	data.userID = "hoge";
+	data.seq = "poaweoi239d0934";
+	data.token = "09u35oidfi9u35";
+	creditBalance = 10000;
+	SetTimeStamp();
+	return SetTransaction();
+    }
+    ////////////////////////////////////////////////////////////////////
+    //NEW GAME Transaction
+    ////////////////////////////////////////////////////////////////////
+    public bool NewGameTransaction(){
+	//@todo dummy;
+	ResetDigits();
+	data.tryCount = 0;
+	data.gameCount += 1;
+	ResetCursor();
+	return SetTransaction();
+    }
+    public void IncTryCount(){
+	++data.tryCount;
+    }
+
+    ////////////////////////////////////////////////////////////////////
+    //Try Transaction
+    ////////////////////////////////////////////////////////////////////
+    public bool TryTransaction(){
+	return SetTransaction();
+    }
+
+    ////////////////////////////////////////////////////////////////////
+    //SELECT
+    ////////////////////////////////////////////////////////////////////
+    public bool IsDigitsFull(){
+	return cursorPos >= maxDigits;
+    }
+    public bool SetDigits( int no ){
+	if( !IsPhase( PHASE.SELECT ) ) return false;
+	if( IsDigitsFull() ) return false;
+	if( IsValidDigit( no ) ) return false;
+	if( !IsCursorValid(cursorPos) ) return false;
+	if( !IsValidTry(data.tryCount) ) return false;
+	SetDigitAt( data.tryCount, cursorPos, no );
+	IncCursor();
+	return true;
+    }
+    public bool ClearDigits(){
+	if( !IsPhase( PHASE.SELECT ) ) return false;
+	if( !IsValidTry( data.tryCount ) ) return false;
+	if( !IsValidCursor( cursorPos ) ) return false;
+	if( cursorPos == 0 && GetDigitAt( cursorPos )<0 ) return false;
+
+	DecCursor();
+	SetDigitAt( data.tryCount, cursorPos, -1 );
+	return true;
+    }
+    public bool GiveUp(){
+	if( !IsPhase( PHASE.SELECT ) ) return false;
+	NewGameTransaction();
+	return true;
+    }
+
+
+    ////////////////////////////////////////////////////////////////////
+    //TRANSACTION Process
+    ////////////////////////////////////////////////////////////////////
+    public void AdmitTransaction(){
+	transaction = TRANSACTION.NONE;
+    }
+    public bool IsTransactionChanged(){
+	return isTransactionChanged;
+    }
+    public bool IsTransactionDone(){
+	return 
+	    transaction == TRANSACTION.RESPONSE_SUCCESS ||
+	    transaction == TRANSACTION.RESPONSE_ERROR;
+    }
+    public bool IsTransactionWait(){
+	return transaction == TRANSACTION.WAIT_FOR_RESPONSE;
+    }
+    public bool IsTransactionNone(){
+	return transaction == TRANSACTION.NONE;
+    }
+    public void SetTransactionDone(){
+	transaction = TRANSACTION.RESPONSE_SUCCESS;
+    }
+    public bool SetTransaction(){
+	if( IsTransactionNone() ){
+	    SetTimeStamp();
+	    transaction = TRANSACTION.WAIT_FOR_RESPONSE;
+	    return true;
+	}else{
+	    return false;
+	}
+    }
+
+}
