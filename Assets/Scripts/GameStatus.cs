@@ -126,6 +126,45 @@ public class GameStatus {
     HttpUtility http = null;
 #if UNITY_EDITOR
     string apiURL = "localhost:8888/GameAPI";
+
+    public class RNG {
+	static readonly float denom = 1000;
+	static readonly float [] numerators = {
+	    0.100f,		//初回の確率
+	    0.111f,
+	    0.125f,
+	    0.142f,
+	    0.166f,
+	    0.200f,
+	    0.250f,
+	    0.333f,
+	    0.500f,
+	    1.0f
+	};
+	static readonly int [] odds = {
+	    9999,		//初回の倍率
+	    1000,
+	    350,
+	    150,
+	    70,
+	    40,
+	    25,
+	    15,
+	    10,
+	    5
+	};
+
+	static public bool IsHit( int counterNo, int tryNo ){
+	    float thr = numerators[ tryNo ] * denom;
+	    float val = UnityEngine.Random.value * denom;
+	    return (bool)( thr >= val );
+	}
+
+	static public int GetOdds( int tryNo ){
+	    return odds[ tryNo ];
+	}
+    }
+
 #else
     string apiURL = "/GameAPI";
 #endif
@@ -220,6 +259,9 @@ public class GameStatus {
     public int Reward(){
 	return data.reward;
     }
+    public void CalcReward(){
+	data.reward = Bet() * RNG.GetOdds( TryCount() );
+    }
 
     //Bet control
     public bool IsBetAble(){
@@ -265,6 +307,18 @@ public class GameStatus {
     }
 
     //Digits control
+    public void ExecAuto(){
+	for( int i=0; i<maxDigits; ++i ){
+	    if( data.crackedDigits[ i ] < 0 ){
+		List<int> candidates = GetCandidates( i );
+		int num = candidates[ (int)UnityEngine.Random.Range(0, candidates.Count-1) ];
+		SetDigitAt( i, num );
+	    }
+	}
+	cursorPos = maxDigits;
+    }
+
+
     public bool IsDigitsFull(){
 	return cursorPos >= maxDigits;
     }
@@ -335,6 +389,28 @@ public class GameStatus {
 	return true;
     }
 
+    public List<int> GetCandidates( int cursor ){
+	List<int> c = new List<int>();
+	if( TryCount() == 0 ){
+	    c.Add(0);	    c.Add(1);
+	    c.Add(2);	    c.Add(3);
+	    c.Add(4);	    c.Add(5);
+	    c.Add(6);	    c.Add(7);
+	    c.Add(8);	    c.Add(9);
+	    return c;
+	}
+	
+	for( int n=0; n<10; ++n ){
+	    bool flg = true;
+	    for( int t=0; flg && t<TryCount(); ++t ){
+		if( n == GetDigitAt( t, cursor ) ) flg = false;
+	    }
+	    if( flg ) c.Add( n );
+	    
+	}
+	return c;
+    }
+
     public void ResetDigitsAll(){
 	//clear history
 	for( int i=0; i<maxTries; ++i ){
@@ -402,13 +478,22 @@ public class GameStatus {
 	//これを送るとtokenとcreditBalanceが帰る。
 	data.userID = dummyNames[ (int)(UnityEngine.Random.Range(0,4.9f)) ];
 	data.seq = "poaweoi239d0934";
+#if UNITY_EDITOR
+	data.creditBalance = (int)(UnityEngine.Random.Range(300,999));
+	SetTransactionDone();
+	return true;
+#else
 	http.SendRequest( apiURL, SerializeCommonData() );
 	return SetTransaction();
+#endif
     }
     public void LoginTransactionDone(){
-	CommonData cd = DeserializeCommonData( http.GetResponseText() );
+#if UNITY_EDITOR
+#else
+ 	CommonData cd = DeserializeCommonData( http.GetResponseText() );
 	data = null;
 	data = cd;
+#endif
 	AdmitTransaction();
     }
 
@@ -421,7 +506,12 @@ public class GameStatus {
 	data.tryCount = 0;
 	data.gameCount += 1;
 	ResetCursor();
+#if UNITY_EDITOR
+	SetTransactionDone();
+	return true;
+#else
 	return SetTransaction();
+#endif
     }
     public void IncTryCount(){
 	++data.tryCount;
@@ -431,12 +521,31 @@ public class GameStatus {
     //TRY Transaction
     ////////////////////////////////////////////////////////////////////
     public bool TryTransaction(){
+#if UNITY_EDITOR
+	for( int i=0; i<maxDigits; ++i ){
+	    Debug.Log( "TRY " + i );
+	    if( IsCrackedDigitAt( i ) ){
+		//あたってる。
+	    }else if( IsUniqueDigitAt( i ) && RNG.IsHit( i, maxTries - TryCount() ) ){
+		CrackDigitAt( i );
+		Debug.Log( "HERE " + i );
+	    }
+	}
+	data.creditBalance -= Bet();
+	if( data.creditBalance < 0 ){ data.creditBalance = 0; }
+	SetTransactionDone();
+	return true;
+#else
 	return SetTransaction();
+#endif
     }
     public void TryTransactionDone(){
+#if UNITY_EDITOR
+#else
 	CommonData cd = DeserializeCommonData( http.GetResponseText() );
 	data = null;
 	data = cd;
+#endif
 	AdmitTransaction();
     }
 

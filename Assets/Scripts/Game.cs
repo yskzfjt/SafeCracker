@@ -14,6 +14,7 @@ public class Game  : MonoBehaviour {
 	{" 1st:", " 2nd:",  " 3rd:", " 4th:", " 5th:", " 6th:", "final:"};
     private readonly string betTitleString = "Bet:\n";
     private readonly string rewardAmountTitleString = "Reward Amount:\n$ ";
+    private readonly string rewardTitleString = "Reward Will be:\n$ ";
     private readonly string creditBalanceTitleString = "Credit Balance:\n$ ";
 
 
@@ -65,6 +66,7 @@ public class Game  : MonoBehaviour {
     //Utility,
     //////////////////////////////////////////////
     void UpdateDraw(){
+	status.CalcReward();//これはしょっちゅう変わるので。
 	drawReq = true;
     }
 
@@ -290,7 +292,8 @@ public class Game  : MonoBehaviour {
 	creditBalanceText.GetComponent<Text>().text = creditBalanceTitleString + status.CreditBalance();
 
 	//賞金
-	rewardAmountText.GetComponent<Text>().text = rewardAmountTitleString + status.Reward();
+	//rewardAmountText.GetComponent<Text>().text = rewardAmountTitleString + status.Reward();
+	rewardText.GetComponent<Text>().text = rewardTitleString + status.Reward();
 
 	drawReq = false;
     }
@@ -316,6 +319,7 @@ public class Game  : MonoBehaviour {
     }
 
     public void OnAutoButon(){
+	status.ExecAuto();
     }
 
     public void OnExecButon(){
