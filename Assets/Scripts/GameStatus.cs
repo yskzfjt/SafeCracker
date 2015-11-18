@@ -531,6 +531,7 @@ public class GameStatus {
 		Debug.Log( "HERE " + i );
 	    }
 	}
+	if( IsWin() ) data.creditBalance += Reward();
 	data.creditBalance -= Bet();
 	if( data.creditBalance < 0 ){ data.creditBalance = 0; }
 	SetTransactionDone();
