@@ -157,6 +157,11 @@ public class GameStatus {
 	static public bool IsHit( int counterNo, int tryNo ){
 	    float thr = numerators[ tryNo ] * denom;
 	    float val = UnityEngine.Random.value * denom;
+	Debug.Log("TEST");
+	Debug.Log(thr);
+	Debug.Log(val);
+	Debug.Log(tryNo);
+
 	    return (bool)( thr >= val );
 	}
 
@@ -526,7 +531,7 @@ public class GameStatus {
 	    Debug.Log( "TRY " + i );
 	    if( IsCrackedDigitAt( i ) ){
 		//あたってる。
-	    }else if( IsUniqueDigitAt( i ) && RNG.IsHit( i, maxTries - TryCount() ) ){
+	    }else if( IsUniqueDigitAt( i ) && RNG.IsHit( i, TryCount() ) ){
 		CrackDigitAt( i );
 		Debug.Log( "HERE " + i );
 	    }
