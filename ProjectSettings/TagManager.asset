@@ -13,10 +13,10 @@ TagManager:
   - UI
   - 
   - 
-  - 
-  - 
-  - 
-  - 
+  - back_a
+  - back_b
+  - back_c
+  - back_d
   - 
   - 
   - 
@@ -40,4 +40,16 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: back_a
+    uniqueID: 4138907709
+    locked: 0
+  - name: back_b
+    uniqueID: 2340611151
+    locked: 0
+  - name: back_c
+    uniqueID: 2397465725
+    locked: 0
+  - name: back_d
+    uniqueID: 2357258363
     locked: 0
