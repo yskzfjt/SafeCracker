@@ -142,16 +142,16 @@ public class GameStatus {
 	    1.0f
 	};
 	static readonly int [] odds = {
-	    8888,		//初回の倍率
-	    1000,
-	    300,
-	    125,
-	    65,
-	    40,
-	    25,
-	    15,
-	    10,
-	    5
+		7777,		//初回の倍率
+		500,
+		120,
+		50,
+		20,
+		10,
+		7,
+		1,
+		1,
+		1
 	};
 
 	static public bool IsHit( int counterNo, int tryNo ){
