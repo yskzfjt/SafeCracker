@@ -6,10 +6,25 @@ ModelImporter:
   serializedVersion: 18
   fileIDToRecycleName:
     100000: //RootNode
+    100002: font_A2
+    100004: Reward_WAKU
+    100006: Reward_will_be_BACK
     400000: //RootNode
+    400002: font_A2
+    400004: Reward_WAKU
+    400006: Reward_will_be_BACK
     2300000: //RootNode
+    2300002: font_A2
+    2300004: Reward_WAKU
+    2300006: Reward_will_be_BACK
     3300000: //RootNode
+    3300002: font_A2
+    3300004: Reward_WAKU
+    3300006: Reward_will_be_BACK
     4300000: kinko_layer_A
+    4300002: Reward_WAKU
+    4300004: Reward_will_be_BACK
+    4300006: font_A2
     9500000: //RootNode
   materials:
     importMaterials: 1
