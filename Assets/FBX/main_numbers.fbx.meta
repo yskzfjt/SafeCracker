@@ -1,0 +1,3240 @@
+fileFormatVersion: 2
+guid: 211993707195dd648b8341b08d62608e
+timeCreated: 1448014810
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: main_number_A_hit_0
+    100004: main_number_A_hit_1
+    100006: main_number_A_hit_2
+    100008: main_number_A_hit_3
+    100010: main_number_A_hit_4
+    100012: main_number_A_hit_5
+    100014: main_number_A_hit_6
+    100016: main_number_A_hit_7
+    100018: main_number_A_hit_8
+    100020: main_number_A_hit_9
+    100022: main_number_A_ng_0
+    100024: main_number_A_ng_1
+    100026: main_number_A_ng_2
+    100028: main_number_A_ng_3
+    100030: main_number_A_ng_4
+    100032: main_number_A_ng_5
+    100034: main_number_A_ng_6
+    100036: main_number_A_ng_7
+    100038: main_number_A_ng_8
+    100040: main_number_A_ng_9
+    100042: main_number_A_on_0
+    100044: main_number_A_on_1
+    100046: main_number_A_on_2
+    100048: main_number_A_on_3
+    100050: main_number_A_on_4
+    100052: main_number_A_on_5
+    100054: main_number_A_on_6
+    100056: main_number_A_on_7
+    100058: main_number_A_on_8
+    100060: main_number_A_on_9
+    100062: main_number_base
+    100064: main_numbers_A_hit
+    100066: main_numbers_A_ng
+    100068: main_numbers_A_on
+    400000: //RootNode
+    400002: main_number_A_hit_0
+    400004: main_number_A_hit_1
+    400006: main_number_A_hit_2
+    400008: main_number_A_hit_3
+    400010: main_number_A_hit_4
+    400012: main_number_A_hit_5
+    400014: main_number_A_hit_6
+    400016: main_number_A_hit_7
+    400018: main_number_A_hit_8
+    400020: main_number_A_hit_9
+    400022: main_number_A_ng_0
+    400024: main_number_A_ng_1
+    400026: main_number_A_ng_2
+    400028: main_number_A_ng_3
+    400030: main_number_A_ng_4
+    400032: main_number_A_ng_5
+    400034: main_number_A_ng_6
+    400036: main_number_A_ng_7
+    400038: main_number_A_ng_8
+    400040: main_number_A_ng_9
+    400042: main_number_A_on_0
+    400044: main_number_A_on_1
+    400046: main_number_A_on_2
+    400048: main_number_A_on_3
+    400050: main_number_A_on_4
+    400052: main_number_A_on_5
+    400054: main_number_A_on_6
+    400056: main_number_A_on_7
+    400058: main_number_A_on_8
+    400060: main_number_A_on_9
+    400062: main_number_base
+    400064: main_numbers_A_hit
+    400066: main_numbers_A_ng
+    400068: main_numbers_A_on
+    2300000: main_number_A_hit_0
+    2300002: main_number_A_hit_1
+    2300004: main_number_A_hit_2
+    2300006: main_number_A_hit_3
+    2300008: main_number_A_hit_4
+    2300010: main_number_A_hit_5
+    2300012: main_number_A_hit_6
+    2300014: main_number_A_hit_7
+    2300016: main_number_A_hit_8
+    2300018: main_number_A_hit_9
+    2300020: main_number_A_ng_0
+    2300022: main_number_A_ng_1
+    2300024: main_number_A_ng_2
+    2300026: main_number_A_ng_3
+    2300028: main_number_A_ng_4
+    2300030: main_number_A_ng_5
+    2300032: main_number_A_ng_6
+    2300034: main_number_A_ng_7
+    2300036: main_number_A_ng_8
+    2300038: main_number_A_ng_9
+    2300040: main_number_A_on_0
+    2300042: main_number_A_on_1
+    2300044: main_number_A_on_2
+    2300046: main_number_A_on_3
+    2300048: main_number_A_on_4
+    2300050: main_number_A_on_5
+    2300052: main_number_A_on_6
+    2300054: main_number_A_on_7
+    2300056: main_number_A_on_8
+    2300058: main_number_A_on_9
+    2300060: main_number_base
+    3300000: main_number_A_hit_0
+    3300002: main_number_A_hit_1
+    3300004: main_number_A_hit_2
+    3300006: main_number_A_hit_3
+    3300008: main_number_A_hit_4
+    3300010: main_number_A_hit_5
+    3300012: main_number_A_hit_6
+    3300014: main_number_A_hit_7
+    3300016: main_number_A_hit_8
+    3300018: main_number_A_hit_9
+    3300020: main_number_A_ng_0
+    3300022: main_number_A_ng_1
+    3300024: main_number_A_ng_2
+    3300026: main_number_A_ng_3
+    3300028: main_number_A_ng_4
+    3300030: main_number_A_ng_5
+    3300032: main_number_A_ng_6
+    3300034: main_number_A_ng_7
+    3300036: main_number_A_ng_8
+    3300038: main_number_A_ng_9
+    3300040: main_number_A_on_0
+    3300042: main_number_A_on_1
+    3300044: main_number_A_on_2
+    3300046: main_number_A_on_3
+    3300048: main_number_A_on_4
+    3300050: main_number_A_on_5
+    3300052: main_number_A_on_6
+    3300054: main_number_A_on_7
+    3300056: main_number_A_on_8
+    3300058: main_number_A_on_9
+    3300060: main_number_base
+    4300000: main_number_base
+    4300002: main_number_A_on_0
+    4300004: main_number_A_on_1
+    4300006: main_number_A_on_2
+    4300008: main_number_A_on_3
+    4300010: main_number_A_on_4
+    4300012: main_number_A_on_5
+    4300014: main_number_A_on_6
+    4300016: main_number_A_on_7
+    4300018: main_number_A_on_8
+    4300020: main_number_A_on_9
+    4300022: main_number_A_hit_0
+    4300024: main_number_A_hit_1
+    4300026: main_number_A_hit_2
+    4300028: main_number_A_hit_3
+    4300030: main_number_A_hit_4
+    4300032: main_number_A_hit_5
+    4300034: main_number_A_hit_6
+    4300036: main_number_A_hit_7
+    4300038: main_number_A_hit_8
+    4300040: main_number_A_hit_9
+    4300042: main_number_A_ng_0
+    4300044: main_number_A_ng_1
+    4300046: main_number_A_ng_2
+    4300048: main_number_A_ng_3
+    4300050: main_number_A_ng_4
+    4300052: main_number_A_ng_5
+    4300054: main_number_A_ng_6
+    4300056: main_number_A_ng_7
+    4300058: main_number_A_ng_8
+    4300060: main_number_A_ng_9
+    7400000: main_number_base
+    7400002: main_number_on_0
+    7400004: main_number_on_2
+    7400006: main_number_on_1
+    7400008: main_number_on_3
+    7400010: main_number_on_4
+    7400012: main_number_on_5
+    7400014: main_number_on_6
+    7400016: main_number_on_7
+    7400018: main_number_on_8
+    7400020: main_number_on_9
+    7400022: main_number_hit_0
+    7400024: main_number_hit_1
+    7400026: main_number_hit_3
+    7400028: main_number_hit_2
+    7400030: main_number_hit_4
+    7400032: main_number_hit_5
+    7400034: main_number_hit_6
+    7400036: main_number_hit_7
+    7400038: main_number_hit_8
+    7400040: main_number_hit_9
+    7400042: main_number_ng_0
+    7400044: main_number_ng_1
+    7400046: main_number_ng_2
+    7400048: main_number_ng_3
+    7400050: main_number_ng_4
+    7400052: main_number_ng_5
+    7400054: main_number_ng_6
+    7400056: main_number_ng_7
+    7400058: main_number_ng_8
+    7400060: main_number_ng_9
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: main_number_base
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 1
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: main_number_base
+        weight: 1
+      - path: main_numbers_A_hit
+        weight: 1
+      - path: main_numbers_A_hit/main_number_A_hit_0
+        weight: 1
+      - path: main_numbers_A_hit/main_number_A_hit_1
+        weight: 1
+      - path: main_numbers_A_hit/main_number_A_hit_2
+        weight: 1
+      - path: main_numbers_A_hit/main_number_A_hit_3
+        weight: 1
+      - path: main_numbers_A_hit/main_number_A_hit_4
+        weight: 1
+      - path: main_numbers_A_hit/main_number_A_hit_5
+        weight: 1
+      - path: main_numbers_A_hit/main_number_A_hit_6
+        weight: 1
+      - path: main_numbers_A_hit/main_number_A_hit_7
+        weight: 1
+      - path: main_numbers_A_hit/main_number_A_hit_8
+        weight: 1
+      - path: main_numbers_A_hit/main_number_A_hit_9
+        weight: 1
+      - path: main_numbers_A_ng
+        weight: 1
+      - path: main_numbers_A_ng/main_number_A_ng_0
+        weight: 1
+      - path: main_numbers_A_ng/main_number_A_ng_1
+        weight: 1
+      - path: main_numbers_A_ng/main_number_A_ng_2
+        weight: 1
+      - path: main_numbers_A_ng/main_number_A_ng_3
+        weight: 1
+      - path: main_numbers_A_ng/main_number_A_ng_4
+        weight: 1
+      - path: main_numbers_A_ng/main_number_A_ng_5
+        weight: 1
+      - path: main_numbers_A_ng/main_number_A_ng_6
+        weight: 1
+      - path: main_numbers_A_ng/main_number_A_ng_7
+        weight: 1
+      - path: main_numbers_A_ng/main_number_A_ng_8
+        weight: 1
+      - path: main_numbers_A_ng/main_number_A_ng_9
+        weight: 1
+      - path: main_numbers_A_on
+        weight: 1
+      - path: main_numbers_A_on/main_number_A_on_0
+        weight: 1
+      - path: main_numbers_A_on/main_number_A_on_1
+        weight: 1
+      - path: main_numbers_A_on/main_number_A_on_2
+        weight: 1
+      - path: main_numbers_A_on/main_number_A_on_3
+        weight: 1
+      - path: main_numbers_A_on/main_number_A_on_4
+        weight: 1
+      - path: main_numbers_A_on/main_number_A_on_5
+        weight: 1
+      - path: main_numbers_A_on/main_number_A_on_6
+        weight: 1
+      - path: main_numbers_A_on/main_number_A_on_7
+        weight: 1
+      - path: main_numbers_A_on/main_number_A_on_8
+        weight: 1
+      - path: main_numbers_A_on/main_number_A_on_9
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: main_number_on_0
+      takeName: Take 001
+      firstFrame: 2
+      lastFrame: 3
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: main_number_base
+        weight: 1
+      - path: main_numbers_A_hit
+        weight: 1
+      - path: main_numbers_A_hit/main_number_A_hit_0
+        weight: 1
+      - path: main_numbers_A_hit/main_number_A_hit_1
+        weight: 1
+      - path: main_numbers_A_hit/main_number_A_hit_2
+        weight: 1
+      - path: main_numbers_A_hit/main_number_A_hit_3
+        weight: 1
+      - path: main_numbers_A_hit/main_number_A_hit_4
+        weight: 1
+      - path: main_numbers_A_hit/main_number_A_hit_5
+        weight: 1
+      - path: main_numbers_A_hit/main_number_A_hit_6
+        weight: 1
+      - path: main_numbers_A_hit/main_number_A_hit_7
+        weight: 1
+      - path: main_numbers_A_hit/main_number_A_hit_8
+        weight: 1
+      - path: main_numbers_A_hit/main_number_A_hit_9
+        weight: 1
+      - path: main_numbers_A_ng
+        weight: 1
+      - path: main_numbers_A_ng/main_number_A_ng_0
+        weight: 1
+      - path: main_numbers_A_ng/main_number_A_ng_1
+        weight: 1
+      - path: main_numbers_A_ng/main_number_A_ng_2
+        weight: 1
+      - path: main_numbers_A_ng/main_number_A_ng_3
+        weight: 1
+      - path: main_numbers_A_ng/main_number_A_ng_4
+        weight: 1
+      - path: main_numbers_A_ng/main_number_A_ng_5
+        weight: 1
+      - path: main_numbers_A_ng/main_number_A_ng_6
+        weight: 1
+      - path: main_numbers_A_ng/main_number_A_ng_7
+        weight: 1
+      - path: main_numbers_A_ng/main_number_A_ng_8
+        weight: 1
+      - path: main_numbers_A_ng/main_number_A_ng_9
+        weight: 1
+      - path: main_numbers_A_on
+        weight: 1
+      - path: main_numbers_A_on/main_number_A_on_0
+        weight: 1
+      - path: main_numbers_A_on/main_number_A_on_1
+        weight: 1
+      - path: main_numbers_A_on/main_number_A_on_2
+        weight: 1
+      - path: main_numbers_A_on/main_number_A_on_3
+        weight: 1
+      - path: main_numbers_A_on/main_number_A_on_4
+        weight: 1
+      - path: main_numbers_A_on/main_number_A_on_5
+        weight: 1
+      - path: main_numbers_A_on/main_number_A_on_6
+        weight: 1
+      - path: main_numbers_A_on/main_number_A_on_7
+        weight: 1
+      - path: main_numbers_A_on/main_number_A_on_8
+        weight: 1
+      - path: main_numbers_A_on/main_number_A_on_9
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: main_number_on_1
+      takeName: Take 001
+      firstFrame: 4
+      lastFrame: 5
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: main_number_base
+        weight: 1
+      - path: main_numbers_A_hit
+        weight: 1
+      - path: main_numbers_A_hit/main_number_A_hit_0
+        weight: 1
+      - path: main_numbers_A_hit/main_number_A_hit_1
+        weight: 1
+      - path: main_numbers_A_hit/main_number_A_hit_2
+        weight: 1
+      - path: main_numbers_A_hit/main_number_A_hit_3
+        weight: 1
+      - path: main_numbers_A_hit/main_number_A_hit_4
+        weight: 1
+      - path: main_numbers_A_hit/main_number_A_hit_5
+        weight: 1
+      - path: main_numbers_A_hit/main_number_A_hit_6
+        weight: 1
+      - path: main_numbers_A_hit/main_number_A_hit_7
+        weight: 1
+      - path: main_numbers_A_hit/main_number_A_hit_8
+        weight: 1
+      - path: main_numbers_A_hit/main_number_A_hit_9
+        weight: 1
+      - path: main_numbers_A_ng
+        weight: 1
+      - path: main_numbers_A_ng/main_number_A_ng_0
+        weight: 1
+      - path: main_numbers_A_ng/main_number_A_ng_1
+        weight: 1
+      - path: main_numbers_A_ng/main_number_A_ng_2
+        weight: 1
+      - path: main_numbers_A_ng/main_number_A_ng_3
+        weight: 1
+      - path: main_numbers_A_ng/main_number_A_ng_4
+        weight: 1
+      - path: main_numbers_A_ng/main_number_A_ng_5
+        weight: 1
+      - path: main_numbers_A_ng/main_number_A_ng_6
+        weight: 1
+      - path: main_numbers_A_ng/main_number_A_ng_7
+        weight: 1
+      - path: main_numbers_A_ng/main_number_A_ng_8
+        weight: 1
+      - path: main_numbers_A_ng/main_number_A_ng_9
+        weight: 1
+      - path: main_numbers_A_on
+        weight: 1
+      - path: main_numbers_A_on/main_number_A_on_0
+        weight: 1
+      - path: main_numbers_A_on/main_number_A_on_1
+        weight: 1
+      - path: main_numbers_A_on/main_number_A_on_2
+        weight: 1
+      - path: main_numbers_A_on/main_number_A_on_3
+        weight: 1
+      - path: main_numbers_A_on/main_number_A_on_4
+        weight: 1
+      - path: main_numbers_A_on/main_number_A_on_5
+        weight: 1
+      - path: main_numbers_A_on/main_number_A_on_6
+        weight: 1
+      - path: main_numbers_A_on/main_number_A_on_7
+        weight: 1
+      - path: main_numbers_A_on/main_number_A_on_8
+        weight: 1
+      - path: main_numbers_A_on/main_number_A_on_9
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: main_number_on_2
+      takeName: Take 001
+      firstFrame: 6
+      lastFrame: 7
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: main_number_base
+        weight: 1
+      - path: main_numbers_A_hit
+        weight: 1
+      - path: main_numbers_A_hit/main_number_A_hit_0
+        weight: 1
+      - path: main_numbers_A_hit/main_number_A_hit_1
+        weight: 1
+      - path: main_numbers_A_hit/main_number_A_hit_2
+        weight: 1
+      - path: main_numbers_A_hit/main_number_A_hit_3
+        weight: 1
+      - path: main_numbers_A_hit/main_number_A_hit_4
+        weight: 1
+      - path: main_numbers_A_hit/main_number_A_hit_5
+        weight: 1
+      - path: main_numbers_A_hit/main_number_A_hit_6
+        weight: 1
+      - path: main_numbers_A_hit/main_number_A_hit_7
+        weight: 1
+      - path: main_numbers_A_hit/main_number_A_hit_8
+        weight: 1
+      - path: main_numbers_A_hit/main_number_A_hit_9
+        weight: 1
+      - path: main_numbers_A_ng
+        weight: 1
+      - path: main_numbers_A_ng/main_number_A_ng_0
+        weight: 1
+      - path: main_numbers_A_ng/main_number_A_ng_1
+        weight: 1
+      - path: main_numbers_A_ng/main_number_A_ng_2
+        weight: 1
+      - path: main_numbers_A_ng/main_number_A_ng_3
+        weight: 1
+      - path: main_numbers_A_ng/main_number_A_ng_4
+        weight: 1
+      - path: main_numbers_A_ng/main_number_A_ng_5
+        weight: 1
+      - path: main_numbers_A_ng/main_number_A_ng_6
+        weight: 1
+      - path: main_numbers_A_ng/main_number_A_ng_7
+        weight: 1
+      - path: main_numbers_A_ng/main_number_A_ng_8
+        weight: 1
+      - path: main_numbers_A_ng/main_number_A_ng_9
+        weight: 1
+      - path: main_numbers_A_on
+        weight: 1
+      - path: main_numbers_A_on/main_number_A_on_0
+        weight: 1
+      - path: main_numbers_A_on/main_number_A_on_1
+        weight: 1
+      - path: main_numbers_A_on/main_number_A_on_2
+        weight: 1
+      - path: main_numbers_A_on/main_number_A_on_3
+        weight: 1
+      - path: main_numbers_A_on/main_number_A_on_4
+        weight: 1
+      - path: main_numbers_A_on/main_number_A_on_5
+        weight: 1
+      - path: main_numbers_A_on/main_number_A_on_6
+        weight: 1
+      - path: main_numbers_A_on/main_number_A_on_7
+        weight: 1
+      - path: main_numbers_A_on/main_number_A_on_8
+        weight: 1
+      - path: main_numbers_A_on/main_number_A_on_9
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: main_number_on_3
+      takeName: Take 001
+      firstFrame: 8
+      lastFrame: 9
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: main_number_base
+        weight: 1
+      - path: main_numbers_A_hit
+        weight: 1
+      - path: main_numbers_A_hit/main_number_A_hit_0
+        weight: 1
+      - path: main_numbers_A_hit/main_number_A_hit_1
+        weight: 1
+      - path: main_numbers_A_hit/main_number_A_hit_2
+        weight: 1
+      - path: main_numbers_A_hit/main_number_A_hit_3
+        weight: 1
+      - path: main_numbers_A_hit/main_number_A_hit_4
+        weight: 1
+      - path: main_numbers_A_hit/main_number_A_hit_5
+        weight: 1
+      - path: main_numbers_A_hit/main_number_A_hit_6
+        weight: 1
+      - path: main_numbers_A_hit/main_number_A_hit_7
+        weight: 1
+      - path: main_numbers_A_hit/main_number_A_hit_8
+        weight: 1
+      - path: main_numbers_A_hit/main_number_A_hit_9
+        weight: 1
+      - path: main_numbers_A_ng
+        weight: 1
+      - path: main_numbers_A_ng/main_number_A_ng_0
+        weight: 1
+      - path: main_numbers_A_ng/main_number_A_ng_1
+        weight: 1
+      - path: main_numbers_A_ng/main_number_A_ng_2
+        weight: 1
+      - path: main_numbers_A_ng/main_number_A_ng_3
+        weight: 1
+      - path: main_numbers_A_ng/main_number_A_ng_4
+        weight: 1
+      - path: main_numbers_A_ng/main_number_A_ng_5
+        weight: 1
+      - path: main_numbers_A_ng/main_number_A_ng_6
+        weight: 1
+      - path: main_numbers_A_ng/main_number_A_ng_7
+        weight: 1
+      - path: main_numbers_A_ng/main_number_A_ng_8
+        weight: 1
+      - path: main_numbers_A_ng/main_number_A_ng_9
+        weight: 1
+      - path: main_numbers_A_on
+        weight: 1
+      - path: main_numbers_A_on/main_number_A_on_0
+        weight: 1
+      - path: main_numbers_A_on/main_number_A_on_1
+        weight: 1
+      - path: main_numbers_A_on/main_number_A_on_2
+        weight: 1
+      - path: main_numbers_A_on/main_number_A_on_3
+        weight: 1
+      - path: main_numbers_A_on/main_number_A_on_4
+        weight: 1
+      - path: main_numbers_A_on/main_number_A_on_5
+        weight: 1
+      - path: main_numbers_A_on/main_number_A_on_6
+        weight: 1
+      - path: main_numbers_A_on/main_number_A_on_7
+        weight: 1
+      - path: main_numbers_A_on/main_number_A_on_8
+        weight: 1
+      - path: main_numbers_A_on/main_number_A_on_9
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: main_number_on_4
+      takeName: Take 001
+      firstFrame: 10
+      lastFrame: 11
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: main_number_base
+        weight: 1
+      - path: main_numbers_A_hit
+        weight: 1
+      - path: main_numbers_A_hit/main_number_A_hit_0
+        weight: 1
+      - path: main_numbers_A_hit/main_number_A_hit_1
+        weight: 1
+      - path: main_numbers_A_hit/main_number_A_hit_2
+        weight: 1
+      - path: main_numbers_A_hit/main_number_A_hit_3
+        weight: 1
+      - path: main_numbers_A_hit/main_number_A_hit_4
+        weight: 1
+      - path: main_numbers_A_hit/main_number_A_hit_5
+        weight: 1
+      - path: main_numbers_A_hit/main_number_A_hit_6
+        weight: 1
+      - path: main_numbers_A_hit/main_number_A_hit_7
+        weight: 1
+      - path: main_numbers_A_hit/main_number_A_hit_8
+        weight: 1
+      - path: main_numbers_A_hit/main_number_A_hit_9
+        weight: 1
+      - path: main_numbers_A_ng
+        weight: 1
+      - path: main_numbers_A_ng/main_number_A_ng_0
+        weight: 1
+      - path: main_numbers_A_ng/main_number_A_ng_1
+        weight: 1
+      - path: main_numbers_A_ng/main_number_A_ng_2
+        weight: 1
+      - path: main_numbers_A_ng/main_number_A_ng_3
+        weight: 1
+      - path: main_numbers_A_ng/main_number_A_ng_4
+        weight: 1
+      - path: main_numbers_A_ng/main_number_A_ng_5
+        weight: 1
+      - path: main_numbers_A_ng/main_number_A_ng_6
+        weight: 1
+      - path: main_numbers_A_ng/main_number_A_ng_7
+        weight: 1
+      - path: main_numbers_A_ng/main_number_A_ng_8
+        weight: 1
+      - path: main_numbers_A_ng/main_number_A_ng_9
+        weight: 1
+      - path: main_numbers_A_on
+        weight: 1
+      - path: main_numbers_A_on/main_number_A_on_0
+        weight: 1
+      - path: main_numbers_A_on/main_number_A_on_1
+        weight: 1
+      - path: main_numbers_A_on/main_number_A_on_2
+        weight: 1
+      - path: main_numbers_A_on/main_number_A_on_3
+        weight: 1
+      - path: main_numbers_A_on/main_number_A_on_4
+        weight: 1
+      - path: main_numbers_A_on/main_number_A_on_5
+        weight: 1
+      - path: main_numbers_A_on/main_number_A_on_6
+        weight: 1
+      - path: main_numbers_A_on/main_number_A_on_7
+        weight: 1
+      - path: main_numbers_A_on/main_number_A_on_8
+        weight: 1
+      - path: main_numbers_A_on/main_number_A_on_9
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: main_number_on_5
+      takeName: Take 001
+      firstFrame: 12
+      lastFrame: 13
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: main_number_base
+        weight: 1
+      - path: main_numbers_A_hit
+        weight: 1
+      - path: main_numbers_A_hit/main_number_A_hit_0
+        weight: 1
+      - path: main_numbers_A_hit/main_number_A_hit_1
+        weight: 1
+      - path: main_numbers_A_hit/main_number_A_hit_2
+        weight: 1
+      - path: main_numbers_A_hit/main_number_A_hit_3
+        weight: 1
+      - path: main_numbers_A_hit/main_number_A_hit_4
+        weight: 1
+      - path: main_numbers_A_hit/main_number_A_hit_5
+        weight: 1
+      - path: main_numbers_A_hit/main_number_A_hit_6
+        weight: 1
+      - path: main_numbers_A_hit/main_number_A_hit_7
+        weight: 1
+      - path: main_numbers_A_hit/main_number_A_hit_8
+        weight: 1
+      - path: main_numbers_A_hit/main_number_A_hit_9
+        weight: 1
+      - path: main_numbers_A_ng
+        weight: 1
+      - path: main_numbers_A_ng/main_number_A_ng_0
+        weight: 1
+      - path: main_numbers_A_ng/main_number_A_ng_1
+        weight: 1
+      - path: main_numbers_A_ng/main_number_A_ng_2
+        weight: 1
+      - path: main_numbers_A_ng/main_number_A_ng_3
+        weight: 1
+      - path: main_numbers_A_ng/main_number_A_ng_4
+        weight: 1
+      - path: main_numbers_A_ng/main_number_A_ng_5
+        weight: 1
+      - path: main_numbers_A_ng/main_number_A_ng_6
+        weight: 1
+      - path: main_numbers_A_ng/main_number_A_ng_7
+        weight: 1
+      - path: main_numbers_A_ng/main_number_A_ng_8
+        weight: 1
+      - path: main_numbers_A_ng/main_number_A_ng_9
+        weight: 1
+      - path: main_numbers_A_on
+        weight: 1
+      - path: main_numbers_A_on/main_number_A_on_0
+        weight: 1
+      - path: main_numbers_A_on/main_number_A_on_1
+        weight: 1
+      - path: main_numbers_A_on/main_number_A_on_2
+        weight: 1
+      - path: main_numbers_A_on/main_number_A_on_3
+        weight: 1
+      - path: main_numbers_A_on/main_number_A_on_4
+        weight: 1
+      - path: main_numbers_A_on/main_number_A_on_5
+        weight: 1
+      - path: main_numbers_A_on/main_number_A_on_6
+        weight: 1
+      - path: main_numbers_A_on/main_number_A_on_7
+        weight: 1
+      - path: main_numbers_A_on/main_number_A_on_8
+        weight: 1
+      - path: main_numbers_A_on/main_number_A_on_9
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: main_number_on_6
+      takeName: Take 001
+      firstFrame: 14
+      lastFrame: 15
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: main_number_base
+        weight: 1
+      - path: main_numbers_A_hit
+        weight: 1
+      - path: main_numbers_A_hit/main_number_A_hit_0
+        weight: 1
+      - path: main_numbers_A_hit/main_number_A_hit_1
+        weight: 1
+      - path: main_numbers_A_hit/main_number_A_hit_2
+        weight: 1
+      - path: main_numbers_A_hit/main_number_A_hit_3
+        weight: 1
+      - path: main_numbers_A_hit/main_number_A_hit_4
+        weight: 1
+      - path: main_numbers_A_hit/main_number_A_hit_5
+        weight: 1
+      - path: main_numbers_A_hit/main_number_A_hit_6
+        weight: 1
+      - path: main_numbers_A_hit/main_number_A_hit_7
+        weight: 1
+      - path: main_numbers_A_hit/main_number_A_hit_8
+        weight: 1
+      - path: main_numbers_A_hit/main_number_A_hit_9
+        weight: 1
+      - path: main_numbers_A_ng
+        weight: 1
+      - path: main_numbers_A_ng/main_number_A_ng_0
+        weight: 1
+      - path: main_numbers_A_ng/main_number_A_ng_1
+        weight: 1
+      - path: main_numbers_A_ng/main_number_A_ng_2
+        weight: 1
+      - path: main_numbers_A_ng/main_number_A_ng_3
+        weight: 1
+      - path: main_numbers_A_ng/main_number_A_ng_4
+        weight: 1
+      - path: main_numbers_A_ng/main_number_A_ng_5
+        weight: 1
+      - path: main_numbers_A_ng/main_number_A_ng_6
+        weight: 1
+      - path: main_numbers_A_ng/main_number_A_ng_7
+        weight: 1
+      - path: main_numbers_A_ng/main_number_A_ng_8
+        weight: 1
+      - path: main_numbers_A_ng/main_number_A_ng_9
+        weight: 1
+      - path: main_numbers_A_on
+        weight: 1
+      - path: main_numbers_A_on/main_number_A_on_0
+        weight: 1
+      - path: main_numbers_A_on/main_number_A_on_1
+        weight: 1
+      - path: main_numbers_A_on/main_number_A_on_2
+        weight: 1
+      - path: main_numbers_A_on/main_number_A_on_3
+        weight: 1
+      - path: main_numbers_A_on/main_number_A_on_4
+        weight: 1
+      - path: main_numbers_A_on/main_number_A_on_5
+        weight: 1
+      - path: main_numbers_A_on/main_number_A_on_6
+        weight: 1
+      - path: main_numbers_A_on/main_number_A_on_7
+        weight: 1
+      - path: main_numbers_A_on/main_number_A_on_8
+        weight: 1
+      - path: main_numbers_A_on/main_number_A_on_9
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: main_number_on_7
+      takeName: Take 001
+      firstFrame: 16
+      lastFrame: 17
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: main_number_base
+        weight: 1
+      - path: main_numbers_A_hit
+        weight: 1
+      - path: main_numbers_A_hit/main_number_A_hit_0
+        weight: 1
+      - path: main_numbers_A_hit/main_number_A_hit_1
+        weight: 1
+      - path: main_numbers_A_hit/main_number_A_hit_2
+        weight: 1
+      - path: main_numbers_A_hit/main_number_A_hit_3
+        weight: 1
+      - path: main_numbers_A_hit/main_number_A_hit_4
+        weight: 1
+      - path: main_numbers_A_hit/main_number_A_hit_5
+        weight: 1
+      - path: main_numbers_A_hit/main_number_A_hit_6
+        weight: 1
+      - path: main_numbers_A_hit/main_number_A_hit_7
+        weight: 1
+      - path: main_numbers_A_hit/main_number_A_hit_8
+        weight: 1
+      - path: main_numbers_A_hit/main_number_A_hit_9
+        weight: 1
+      - path: main_numbers_A_ng
+        weight: 1
+      - path: main_numbers_A_ng/main_number_A_ng_0
+        weight: 1
+      - path: main_numbers_A_ng/main_number_A_ng_1
+        weight: 1
+      - path: main_numbers_A_ng/main_number_A_ng_2
+        weight: 1
+      - path: main_numbers_A_ng/main_number_A_ng_3
+        weight: 1
+      - path: main_numbers_A_ng/main_number_A_ng_4
+        weight: 1
+      - path: main_numbers_A_ng/main_number_A_ng_5
+        weight: 1
+      - path: main_numbers_A_ng/main_number_A_ng_6
+        weight: 1
+      - path: main_numbers_A_ng/main_number_A_ng_7
+        weight: 1
+      - path: main_numbers_A_ng/main_number_A_ng_8
+        weight: 1
+      - path: main_numbers_A_ng/main_number_A_ng_9
+        weight: 1
+      - path: main_numbers_A_on
+        weight: 1
+      - path: main_numbers_A_on/main_number_A_on_0
+        weight: 1
+      - path: main_numbers_A_on/main_number_A_on_1
+        weight: 1
+      - path: main_numbers_A_on/main_number_A_on_2
+        weight: 1
+      - path: main_numbers_A_on/main_number_A_on_3
+        weight: 1
+      - path: main_numbers_A_on/main_number_A_on_4
+        weight: 1
+      - path: main_numbers_A_on/main_number_A_on_5
+        weight: 1
+      - path: main_numbers_A_on/main_number_A_on_6
+        weight: 1
+      - path: main_numbers_A_on/main_number_A_on_7
+        weight: 1
+      - path: main_numbers_A_on/main_number_A_on_8
+        weight: 1
+      - path: main_numbers_A_on/main_number_A_on_9
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: main_number_on_8
+      takeName: Take 001
+      firstFrame: 18
+      lastFrame: 19
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: main_number_base
+        weight: 1
+      - path: main_numbers_A_hit
+        weight: 1
+      - path: main_numbers_A_hit/main_number_A_hit_0
+        weight: 1
+      - path: main_numbers_A_hit/main_number_A_hit_1
+        weight: 1
+      - path: main_numbers_A_hit/main_number_A_hit_2
+        weight: 1
+      - path: main_numbers_A_hit/main_number_A_hit_3
+        weight: 1
+      - path: main_numbers_A_hit/main_number_A_hit_4
+        weight: 1
+      - path: main_numbers_A_hit/main_number_A_hit_5
+        weight: 1
+      - path: main_numbers_A_hit/main_number_A_hit_6
+        weight: 1
+      - path: main_numbers_A_hit/main_number_A_hit_7
+        weight: 1
+      - path: main_numbers_A_hit/main_number_A_hit_8
+        weight: 1
+      - path: main_numbers_A_hit/main_number_A_hit_9
+        weight: 1
+      - path: main_numbers_A_ng
+        weight: 1
+      - path: main_numbers_A_ng/main_number_A_ng_0
+        weight: 1
+      - path: main_numbers_A_ng/main_number_A_ng_1
+        weight: 1
+      - path: main_numbers_A_ng/main_number_A_ng_2
+        weight: 1
+      - path: main_numbers_A_ng/main_number_A_ng_3
+        weight: 1
+      - path: main_numbers_A_ng/main_number_A_ng_4
+        weight: 1
+      - path: main_numbers_A_ng/main_number_A_ng_5
+        weight: 1
+      - path: main_numbers_A_ng/main_number_A_ng_6
+        weight: 1
+      - path: main_numbers_A_ng/main_number_A_ng_7
+        weight: 1
+      - path: main_numbers_A_ng/main_number_A_ng_8
+        weight: 1
+      - path: main_numbers_A_ng/main_number_A_ng_9
+        weight: 1
+      - path: main_numbers_A_on
+        weight: 1
+      - path: main_numbers_A_on/main_number_A_on_0
+        weight: 1
+      - path: main_numbers_A_on/main_number_A_on_1
+        weight: 1
+      - path: main_numbers_A_on/main_number_A_on_2
+        weight: 1
+      - path: main_numbers_A_on/main_number_A_on_3
+        weight: 1
+      - path: main_numbers_A_on/main_number_A_on_4
+        weight: 1
+      - path: main_numbers_A_on/main_number_A_on_5
+        weight: 1
+      - path: main_numbers_A_on/main_number_A_on_6
+        weight: 1
+      - path: main_numbers_A_on/main_number_A_on_7
+        weight: 1
+      - path: main_numbers_A_on/main_number_A_on_8
+        weight: 1
+      - path: main_numbers_A_on/main_number_A_on_9
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: main_number_on_9
+      takeName: Take 001
+      firstFrame: 20
+      lastFrame: 21
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: main_number_base
+        weight: 1
+      - path: main_numbers_A_hit
+        weight: 1
+      - path: main_numbers_A_hit/main_number_A_hit_0
+        weight: 1
+      - path: main_numbers_A_hit/main_number_A_hit_1
+        weight: 1
+      - path: main_numbers_A_hit/main_number_A_hit_2
+        weight: 1
+      - path: main_numbers_A_hit/main_number_A_hit_3
+        weight: 1
+      - path: main_numbers_A_hit/main_number_A_hit_4
+        weight: 1
+      - path: main_numbers_A_hit/main_number_A_hit_5
+        weight: 1
+      - path: main_numbers_A_hit/main_number_A_hit_6
+        weight: 1
+      - path: main_numbers_A_hit/main_number_A_hit_7
+        weight: 1
+      - path: main_numbers_A_hit/main_number_A_hit_8
+        weight: 1
+      - path: main_numbers_A_hit/main_number_A_hit_9
+        weight: 1
+      - path: main_numbers_A_ng
+        weight: 1
+      - path: main_numbers_A_ng/main_number_A_ng_0
+        weight: 1
+      - path: main_numbers_A_ng/main_number_A_ng_1
+        weight: 1
+      - path: main_numbers_A_ng/main_number_A_ng_2
+        weight: 1
+      - path: main_numbers_A_ng/main_number_A_ng_3
+        weight: 1
+      - path: main_numbers_A_ng/main_number_A_ng_4
+        weight: 1
+      - path: main_numbers_A_ng/main_number_A_ng_5
+        weight: 1
+      - path: main_numbers_A_ng/main_number_A_ng_6
+        weight: 1
+      - path: main_numbers_A_ng/main_number_A_ng_7
+        weight: 1
+      - path: main_numbers_A_ng/main_number_A_ng_8
+        weight: 1
+      - path: main_numbers_A_ng/main_number_A_ng_9
+        weight: 1
+      - path: main_numbers_A_on
+        weight: 1
+      - path: main_numbers_A_on/main_number_A_on_0
+        weight: 1
+      - path: main_numbers_A_on/main_number_A_on_1
+        weight: 1
+      - path: main_numbers_A_on/main_number_A_on_2
+        weight: 1
+      - path: main_numbers_A_on/main_number_A_on_3
+        weight: 1
+      - path: main_numbers_A_on/main_number_A_on_4
+        weight: 1
+      - path: main_numbers_A_on/main_number_A_on_5
+        weight: 1
+      - path: main_numbers_A_on/main_number_A_on_6
+        weight: 1
+      - path: main_numbers_A_on/main_number_A_on_7
+        weight: 1
+      - path: main_numbers_A_on/main_number_A_on_8
+        weight: 1
+      - path: main_numbers_A_on/main_number_A_on_9
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: main_number_hit_0
+      takeName: Take 001
+      firstFrame: 22
+      lastFrame: 23
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: main_number_base
+        weight: 1
+      - path: main_numbers_A_hit
+        weight: 1
+      - path: main_numbers_A_hit/main_number_A_hit_0
+        weight: 1
+      - path: main_numbers_A_hit/main_number_A_hit_1
+        weight: 1
+      - path: main_numbers_A_hit/main_number_A_hit_2
+        weight: 1
+      - path: main_numbers_A_hit/main_number_A_hit_3
+        weight: 1
+      - path: main_numbers_A_hit/main_number_A_hit_4
+        weight: 1
+      - path: main_numbers_A_hit/main_number_A_hit_5
+        weight: 1
+      - path: main_numbers_A_hit/main_number_A_hit_6
+        weight: 1
+      - path: main_numbers_A_hit/main_number_A_hit_7
+        weight: 1
+      - path: main_numbers_A_hit/main_number_A_hit_8
+        weight: 1
+      - path: main_numbers_A_hit/main_number_A_hit_9
+        weight: 1
+      - path: main_numbers_A_ng
+        weight: 1
+      - path: main_numbers_A_ng/main_number_A_ng_0
+        weight: 1
+      - path: main_numbers_A_ng/main_number_A_ng_1
+        weight: 1
+      - path: main_numbers_A_ng/main_number_A_ng_2
+        weight: 1
+      - path: main_numbers_A_ng/main_number_A_ng_3
+        weight: 1
+      - path: main_numbers_A_ng/main_number_A_ng_4
+        weight: 1
+      - path: main_numbers_A_ng/main_number_A_ng_5
+        weight: 1
+      - path: main_numbers_A_ng/main_number_A_ng_6
+        weight: 1
+      - path: main_numbers_A_ng/main_number_A_ng_7
+        weight: 1
+      - path: main_numbers_A_ng/main_number_A_ng_8
+        weight: 1
+      - path: main_numbers_A_ng/main_number_A_ng_9
+        weight: 1
+      - path: main_numbers_A_on
+        weight: 1
+      - path: main_numbers_A_on/main_number_A_on_0
+        weight: 1
+      - path: main_numbers_A_on/main_number_A_on_1
+        weight: 1
+      - path: main_numbers_A_on/main_number_A_on_2
+        weight: 1
+      - path: main_numbers_A_on/main_number_A_on_3
+        weight: 1
+      - path: main_numbers_A_on/main_number_A_on_4
+        weight: 1
+      - path: main_numbers_A_on/main_number_A_on_5
+        weight: 1
+      - path: main_numbers_A_on/main_number_A_on_6
+        weight: 1
+      - path: main_numbers_A_on/main_number_A_on_7
+        weight: 1
+      - path: main_numbers_A_on/main_number_A_on_8
+        weight: 1
+      - path: main_numbers_A_on/main_number_A_on_9
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: main_number_hit_1
+      takeName: Take 001
+      firstFrame: 24
+      lastFrame: 25
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: main_number_base
+        weight: 1
+      - path: main_numbers_A_hit
+        weight: 1
+      - path: main_numbers_A_hit/main_number_A_hit_0
+        weight: 1
+      - path: main_numbers_A_hit/main_number_A_hit_1
+        weight: 1
+      - path: main_numbers_A_hit/main_number_A_hit_2
+        weight: 1
+      - path: main_numbers_A_hit/main_number_A_hit_3
+        weight: 1
+      - path: main_numbers_A_hit/main_number_A_hit_4
+        weight: 1
+      - path: main_numbers_A_hit/main_number_A_hit_5
+        weight: 1
+      - path: main_numbers_A_hit/main_number_A_hit_6
+        weight: 1
+      - path: main_numbers_A_hit/main_number_A_hit_7
+        weight: 1
+      - path: main_numbers_A_hit/main_number_A_hit_8
+        weight: 1
+      - path: main_numbers_A_hit/main_number_A_hit_9
+        weight: 1
+      - path: main_numbers_A_ng
+        weight: 1
+      - path: main_numbers_A_ng/main_number_A_ng_0
+        weight: 1
+      - path: main_numbers_A_ng/main_number_A_ng_1
+        weight: 1
+      - path: main_numbers_A_ng/main_number_A_ng_2
+        weight: 1
+      - path: main_numbers_A_ng/main_number_A_ng_3
+        weight: 1
+      - path: main_numbers_A_ng/main_number_A_ng_4
+        weight: 1
+      - path: main_numbers_A_ng/main_number_A_ng_5
+        weight: 1
+      - path: main_numbers_A_ng/main_number_A_ng_6
+        weight: 1
+      - path: main_numbers_A_ng/main_number_A_ng_7
+        weight: 1
+      - path: main_numbers_A_ng/main_number_A_ng_8
+        weight: 1
+      - path: main_numbers_A_ng/main_number_A_ng_9
+        weight: 1
+      - path: main_numbers_A_on
+        weight: 1
+      - path: main_numbers_A_on/main_number_A_on_0
+        weight: 1
+      - path: main_numbers_A_on/main_number_A_on_1
+        weight: 1
+      - path: main_numbers_A_on/main_number_A_on_2
+        weight: 1
+      - path: main_numbers_A_on/main_number_A_on_3
+        weight: 1
+      - path: main_numbers_A_on/main_number_A_on_4
+        weight: 1
+      - path: main_numbers_A_on/main_number_A_on_5
+        weight: 1
+      - path: main_numbers_A_on/main_number_A_on_6
+        weight: 1
+      - path: main_numbers_A_on/main_number_A_on_7
+        weight: 1
+      - path: main_numbers_A_on/main_number_A_on_8
+        weight: 1
+      - path: main_numbers_A_on/main_number_A_on_9
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: main_number_hit_2
+      takeName: Take 001
+      firstFrame: 26
+      lastFrame: 27
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: main_number_base
+        weight: 1
+      - path: main_numbers_A_hit
+        weight: 1
+      - path: main_numbers_A_hit/main_number_A_hit_0
+        weight: 1
+      - path: main_numbers_A_hit/main_number_A_hit_1
+        weight: 1
+      - path: main_numbers_A_hit/main_number_A_hit_2
+        weight: 1
+      - path: main_numbers_A_hit/main_number_A_hit_3
+        weight: 1
+      - path: main_numbers_A_hit/main_number_A_hit_4
+        weight: 1
+      - path: main_numbers_A_hit/main_number_A_hit_5
+        weight: 1
+      - path: main_numbers_A_hit/main_number_A_hit_6
+        weight: 1
+      - path: main_numbers_A_hit/main_number_A_hit_7
+        weight: 1
+      - path: main_numbers_A_hit/main_number_A_hit_8
+        weight: 1
+      - path: main_numbers_A_hit/main_number_A_hit_9
+        weight: 1
+      - path: main_numbers_A_ng
+        weight: 1
+      - path: main_numbers_A_ng/main_number_A_ng_0
+        weight: 1
+      - path: main_numbers_A_ng/main_number_A_ng_1
+        weight: 1
+      - path: main_numbers_A_ng/main_number_A_ng_2
+        weight: 1
+      - path: main_numbers_A_ng/main_number_A_ng_3
+        weight: 1
+      - path: main_numbers_A_ng/main_number_A_ng_4
+        weight: 1
+      - path: main_numbers_A_ng/main_number_A_ng_5
+        weight: 1
+      - path: main_numbers_A_ng/main_number_A_ng_6
+        weight: 1
+      - path: main_numbers_A_ng/main_number_A_ng_7
+        weight: 1
+      - path: main_numbers_A_ng/main_number_A_ng_8
+        weight: 1
+      - path: main_numbers_A_ng/main_number_A_ng_9
+        weight: 1
+      - path: main_numbers_A_on
+        weight: 1
+      - path: main_numbers_A_on/main_number_A_on_0
+        weight: 1
+      - path: main_numbers_A_on/main_number_A_on_1
+        weight: 1
+      - path: main_numbers_A_on/main_number_A_on_2
+        weight: 1
+      - path: main_numbers_A_on/main_number_A_on_3
+        weight: 1
+      - path: main_numbers_A_on/main_number_A_on_4
+        weight: 1
+      - path: main_numbers_A_on/main_number_A_on_5
+        weight: 1
+      - path: main_numbers_A_on/main_number_A_on_6
+        weight: 1
+      - path: main_numbers_A_on/main_number_A_on_7
+        weight: 1
+      - path: main_numbers_A_on/main_number_A_on_8
+        weight: 1
+      - path: main_numbers_A_on/main_number_A_on_9
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: main_number_hit_3
+      takeName: Take 001
+      firstFrame: 28
+      lastFrame: 29
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: main_number_base
+        weight: 1
+      - path: main_numbers_A_hit
+        weight: 1
+      - path: main_numbers_A_hit/main_number_A_hit_0
+        weight: 1
+      - path: main_numbers_A_hit/main_number_A_hit_1
+        weight: 1
+      - path: main_numbers_A_hit/main_number_A_hit_2
+        weight: 1
+      - path: main_numbers_A_hit/main_number_A_hit_3
+        weight: 1
+      - path: main_numbers_A_hit/main_number_A_hit_4
+        weight: 1
+      - path: main_numbers_A_hit/main_number_A_hit_5
+        weight: 1
+      - path: main_numbers_A_hit/main_number_A_hit_6
+        weight: 1
+      - path: main_numbers_A_hit/main_number_A_hit_7
+        weight: 1
+      - path: main_numbers_A_hit/main_number_A_hit_8
+        weight: 1
+      - path: main_numbers_A_hit/main_number_A_hit_9
+        weight: 1
+      - path: main_numbers_A_ng
+        weight: 1
+      - path: main_numbers_A_ng/main_number_A_ng_0
+        weight: 1
+      - path: main_numbers_A_ng/main_number_A_ng_1
+        weight: 1
+      - path: main_numbers_A_ng/main_number_A_ng_2
+        weight: 1
+      - path: main_numbers_A_ng/main_number_A_ng_3
+        weight: 1
+      - path: main_numbers_A_ng/main_number_A_ng_4
+        weight: 1
+      - path: main_numbers_A_ng/main_number_A_ng_5
+        weight: 1
+      - path: main_numbers_A_ng/main_number_A_ng_6
+        weight: 1
+      - path: main_numbers_A_ng/main_number_A_ng_7
+        weight: 1
+      - path: main_numbers_A_ng/main_number_A_ng_8
+        weight: 1
+      - path: main_numbers_A_ng/main_number_A_ng_9
+        weight: 1
+      - path: main_numbers_A_on
+        weight: 1
+      - path: main_numbers_A_on/main_number_A_on_0
+        weight: 1
+      - path: main_numbers_A_on/main_number_A_on_1
+        weight: 1
+      - path: main_numbers_A_on/main_number_A_on_2
+        weight: 1
+      - path: main_numbers_A_on/main_number_A_on_3
+        weight: 1
+      - path: main_numbers_A_on/main_number_A_on_4
+        weight: 1
+      - path: main_numbers_A_on/main_number_A_on_5
+        weight: 1
+      - path: main_numbers_A_on/main_number_A_on_6
+        weight: 1
+      - path: main_numbers_A_on/main_number_A_on_7
+        weight: 1
+      - path: main_numbers_A_on/main_number_A_on_8
+        weight: 1
+      - path: main_numbers_A_on/main_number_A_on_9
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: main_number_hit_4
+      takeName: Take 001
+      firstFrame: 30
+      lastFrame: 31
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: main_number_base
+        weight: 1
+      - path: main_numbers_A_hit
+        weight: 1
+      - path: main_numbers_A_hit/main_number_A_hit_0
+        weight: 1
+      - path: main_numbers_A_hit/main_number_A_hit_1
+        weight: 1
+      - path: main_numbers_A_hit/main_number_A_hit_2
+        weight: 1
+      - path: main_numbers_A_hit/main_number_A_hit_3
+        weight: 1
+      - path: main_numbers_A_hit/main_number_A_hit_4
+        weight: 1
+      - path: main_numbers_A_hit/main_number_A_hit_5
+        weight: 1
+      - path: main_numbers_A_hit/main_number_A_hit_6
+        weight: 1
+      - path: main_numbers_A_hit/main_number_A_hit_7
+        weight: 1
+      - path: main_numbers_A_hit/main_number_A_hit_8
+        weight: 1
+      - path: main_numbers_A_hit/main_number_A_hit_9
+        weight: 1
+      - path: main_numbers_A_ng
+        weight: 1
+      - path: main_numbers_A_ng/main_number_A_ng_0
+        weight: 1
+      - path: main_numbers_A_ng/main_number_A_ng_1
+        weight: 1
+      - path: main_numbers_A_ng/main_number_A_ng_2
+        weight: 1
+      - path: main_numbers_A_ng/main_number_A_ng_3
+        weight: 1
+      - path: main_numbers_A_ng/main_number_A_ng_4
+        weight: 1
+      - path: main_numbers_A_ng/main_number_A_ng_5
+        weight: 1
+      - path: main_numbers_A_ng/main_number_A_ng_6
+        weight: 1
+      - path: main_numbers_A_ng/main_number_A_ng_7
+        weight: 1
+      - path: main_numbers_A_ng/main_number_A_ng_8
+        weight: 1
+      - path: main_numbers_A_ng/main_number_A_ng_9
+        weight: 1
+      - path: main_numbers_A_on
+        weight: 1
+      - path: main_numbers_A_on/main_number_A_on_0
+        weight: 1
+      - path: main_numbers_A_on/main_number_A_on_1
+        weight: 1
+      - path: main_numbers_A_on/main_number_A_on_2
+        weight: 1
+      - path: main_numbers_A_on/main_number_A_on_3
+        weight: 1
+      - path: main_numbers_A_on/main_number_A_on_4
+        weight: 1
+      - path: main_numbers_A_on/main_number_A_on_5
+        weight: 1
+      - path: main_numbers_A_on/main_number_A_on_6
+        weight: 1
+      - path: main_numbers_A_on/main_number_A_on_7
+        weight: 1
+      - path: main_numbers_A_on/main_number_A_on_8
+        weight: 1
+      - path: main_numbers_A_on/main_number_A_on_9
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: main_number_hit_5
+      takeName: Take 001
+      firstFrame: 32
+      lastFrame: 33
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: main_number_base
+        weight: 1
+      - path: main_numbers_A_hit
+        weight: 1
+      - path: main_numbers_A_hit/main_number_A_hit_0
+        weight: 1
+      - path: main_numbers_A_hit/main_number_A_hit_1
+        weight: 1
+      - path: main_numbers_A_hit/main_number_A_hit_2
+        weight: 1
+      - path: main_numbers_A_hit/main_number_A_hit_3
+        weight: 1
+      - path: main_numbers_A_hit/main_number_A_hit_4
+        weight: 1
+      - path: main_numbers_A_hit/main_number_A_hit_5
+        weight: 1
+      - path: main_numbers_A_hit/main_number_A_hit_6
+        weight: 1
+      - path: main_numbers_A_hit/main_number_A_hit_7
+        weight: 1
+      - path: main_numbers_A_hit/main_number_A_hit_8
+        weight: 1
+      - path: main_numbers_A_hit/main_number_A_hit_9
+        weight: 1
+      - path: main_numbers_A_ng
+        weight: 1
+      - path: main_numbers_A_ng/main_number_A_ng_0
+        weight: 1
+      - path: main_numbers_A_ng/main_number_A_ng_1
+        weight: 1
+      - path: main_numbers_A_ng/main_number_A_ng_2
+        weight: 1
+      - path: main_numbers_A_ng/main_number_A_ng_3
+        weight: 1
+      - path: main_numbers_A_ng/main_number_A_ng_4
+        weight: 1
+      - path: main_numbers_A_ng/main_number_A_ng_5
+        weight: 1
+      - path: main_numbers_A_ng/main_number_A_ng_6
+        weight: 1
+      - path: main_numbers_A_ng/main_number_A_ng_7
+        weight: 1
+      - path: main_numbers_A_ng/main_number_A_ng_8
+        weight: 1
+      - path: main_numbers_A_ng/main_number_A_ng_9
+        weight: 1
+      - path: main_numbers_A_on
+        weight: 1
+      - path: main_numbers_A_on/main_number_A_on_0
+        weight: 1
+      - path: main_numbers_A_on/main_number_A_on_1
+        weight: 1
+      - path: main_numbers_A_on/main_number_A_on_2
+        weight: 1
+      - path: main_numbers_A_on/main_number_A_on_3
+        weight: 1
+      - path: main_numbers_A_on/main_number_A_on_4
+        weight: 1
+      - path: main_numbers_A_on/main_number_A_on_5
+        weight: 1
+      - path: main_numbers_A_on/main_number_A_on_6
+        weight: 1
+      - path: main_numbers_A_on/main_number_A_on_7
+        weight: 1
+      - path: main_numbers_A_on/main_number_A_on_8
+        weight: 1
+      - path: main_numbers_A_on/main_number_A_on_9
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: main_number_hit_6
+      takeName: Take 001
+      firstFrame: 34
+      lastFrame: 35
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: main_number_base
+        weight: 1
+      - path: main_numbers_A_hit
+        weight: 1
+      - path: main_numbers_A_hit/main_number_A_hit_0
+        weight: 1
+      - path: main_numbers_A_hit/main_number_A_hit_1
+        weight: 1
+      - path: main_numbers_A_hit/main_number_A_hit_2
+        weight: 1
+      - path: main_numbers_A_hit/main_number_A_hit_3
+        weight: 1
+      - path: main_numbers_A_hit/main_number_A_hit_4
+        weight: 1
+      - path: main_numbers_A_hit/main_number_A_hit_5
+        weight: 1
+      - path: main_numbers_A_hit/main_number_A_hit_6
+        weight: 1
+      - path: main_numbers_A_hit/main_number_A_hit_7
+        weight: 1
+      - path: main_numbers_A_hit/main_number_A_hit_8
+        weight: 1
+      - path: main_numbers_A_hit/main_number_A_hit_9
+        weight: 1
+      - path: main_numbers_A_ng
+        weight: 1
+      - path: main_numbers_A_ng/main_number_A_ng_0
+        weight: 1
+      - path: main_numbers_A_ng/main_number_A_ng_1
+        weight: 1
+      - path: main_numbers_A_ng/main_number_A_ng_2
+        weight: 1
+      - path: main_numbers_A_ng/main_number_A_ng_3
+        weight: 1
+      - path: main_numbers_A_ng/main_number_A_ng_4
+        weight: 1
+      - path: main_numbers_A_ng/main_number_A_ng_5
+        weight: 1
+      - path: main_numbers_A_ng/main_number_A_ng_6
+        weight: 1
+      - path: main_numbers_A_ng/main_number_A_ng_7
+        weight: 1
+      - path: main_numbers_A_ng/main_number_A_ng_8
+        weight: 1
+      - path: main_numbers_A_ng/main_number_A_ng_9
+        weight: 1
+      - path: main_numbers_A_on
+        weight: 1
+      - path: main_numbers_A_on/main_number_A_on_0
+        weight: 1
+      - path: main_numbers_A_on/main_number_A_on_1
+        weight: 1
+      - path: main_numbers_A_on/main_number_A_on_2
+        weight: 1
+      - path: main_numbers_A_on/main_number_A_on_3
+        weight: 1
+      - path: main_numbers_A_on/main_number_A_on_4
+        weight: 1
+      - path: main_numbers_A_on/main_number_A_on_5
+        weight: 1
+      - path: main_numbers_A_on/main_number_A_on_6
+        weight: 1
+      - path: main_numbers_A_on/main_number_A_on_7
+        weight: 1
+      - path: main_numbers_A_on/main_number_A_on_8
+        weight: 1
+      - path: main_numbers_A_on/main_number_A_on_9
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: main_number_hit_7
+      takeName: Take 001
+      firstFrame: 36
+      lastFrame: 37
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: main_number_base
+        weight: 1
+      - path: main_numbers_A_hit
+        weight: 1
+      - path: main_numbers_A_hit/main_number_A_hit_0
+        weight: 1
+      - path: main_numbers_A_hit/main_number_A_hit_1
+        weight: 1
+      - path: main_numbers_A_hit/main_number_A_hit_2
+        weight: 1
+      - path: main_numbers_A_hit/main_number_A_hit_3
+        weight: 1
+      - path: main_numbers_A_hit/main_number_A_hit_4
+        weight: 1
+      - path: main_numbers_A_hit/main_number_A_hit_5
+        weight: 1
+      - path: main_numbers_A_hit/main_number_A_hit_6
+        weight: 1
+      - path: main_numbers_A_hit/main_number_A_hit_7
+        weight: 1
+      - path: main_numbers_A_hit/main_number_A_hit_8
+        weight: 1
+      - path: main_numbers_A_hit/main_number_A_hit_9
+        weight: 1
+      - path: main_numbers_A_ng
+        weight: 1
+      - path: main_numbers_A_ng/main_number_A_ng_0
+        weight: 1
+      - path: main_numbers_A_ng/main_number_A_ng_1
+        weight: 1
+      - path: main_numbers_A_ng/main_number_A_ng_2
+        weight: 1
+      - path: main_numbers_A_ng/main_number_A_ng_3
+        weight: 1
+      - path: main_numbers_A_ng/main_number_A_ng_4
+        weight: 1
+      - path: main_numbers_A_ng/main_number_A_ng_5
+        weight: 1
+      - path: main_numbers_A_ng/main_number_A_ng_6
+        weight: 1
+      - path: main_numbers_A_ng/main_number_A_ng_7
+        weight: 1
+      - path: main_numbers_A_ng/main_number_A_ng_8
+        weight: 1
+      - path: main_numbers_A_ng/main_number_A_ng_9
+        weight: 1
+      - path: main_numbers_A_on
+        weight: 1
+      - path: main_numbers_A_on/main_number_A_on_0
+        weight: 1
+      - path: main_numbers_A_on/main_number_A_on_1
+        weight: 1
+      - path: main_numbers_A_on/main_number_A_on_2
+        weight: 1
+      - path: main_numbers_A_on/main_number_A_on_3
+        weight: 1
+      - path: main_numbers_A_on/main_number_A_on_4
+        weight: 1
+      - path: main_numbers_A_on/main_number_A_on_5
+        weight: 1
+      - path: main_numbers_A_on/main_number_A_on_6
+        weight: 1
+      - path: main_numbers_A_on/main_number_A_on_7
+        weight: 1
+      - path: main_numbers_A_on/main_number_A_on_8
+        weight: 1
+      - path: main_numbers_A_on/main_number_A_on_9
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: main_number_hit_8
+      takeName: Take 001
+      firstFrame: 38
+      lastFrame: 39
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: main_number_base
+        weight: 1
+      - path: main_numbers_A_hit
+        weight: 1
+      - path: main_numbers_A_hit/main_number_A_hit_0
+        weight: 1
+      - path: main_numbers_A_hit/main_number_A_hit_1
+        weight: 1
+      - path: main_numbers_A_hit/main_number_A_hit_2
+        weight: 1
+      - path: main_numbers_A_hit/main_number_A_hit_3
+        weight: 1
+      - path: main_numbers_A_hit/main_number_A_hit_4
+        weight: 1
+      - path: main_numbers_A_hit/main_number_A_hit_5
+        weight: 1
+      - path: main_numbers_A_hit/main_number_A_hit_6
+        weight: 1
+      - path: main_numbers_A_hit/main_number_A_hit_7
+        weight: 1
+      - path: main_numbers_A_hit/main_number_A_hit_8
+        weight: 1
+      - path: main_numbers_A_hit/main_number_A_hit_9
+        weight: 1
+      - path: main_numbers_A_ng
+        weight: 1
+      - path: main_numbers_A_ng/main_number_A_ng_0
+        weight: 1
+      - path: main_numbers_A_ng/main_number_A_ng_1
+        weight: 1
+      - path: main_numbers_A_ng/main_number_A_ng_2
+        weight: 1
+      - path: main_numbers_A_ng/main_number_A_ng_3
+        weight: 1
+      - path: main_numbers_A_ng/main_number_A_ng_4
+        weight: 1
+      - path: main_numbers_A_ng/main_number_A_ng_5
+        weight: 1
+      - path: main_numbers_A_ng/main_number_A_ng_6
+        weight: 1
+      - path: main_numbers_A_ng/main_number_A_ng_7
+        weight: 1
+      - path: main_numbers_A_ng/main_number_A_ng_8
+        weight: 1
+      - path: main_numbers_A_ng/main_number_A_ng_9
+        weight: 1
+      - path: main_numbers_A_on
+        weight: 1
+      - path: main_numbers_A_on/main_number_A_on_0
+        weight: 1
+      - path: main_numbers_A_on/main_number_A_on_1
+        weight: 1
+      - path: main_numbers_A_on/main_number_A_on_2
+        weight: 1
+      - path: main_numbers_A_on/main_number_A_on_3
+        weight: 1
+      - path: main_numbers_A_on/main_number_A_on_4
+        weight: 1
+      - path: main_numbers_A_on/main_number_A_on_5
+        weight: 1
+      - path: main_numbers_A_on/main_number_A_on_6
+        weight: 1
+      - path: main_numbers_A_on/main_number_A_on_7
+        weight: 1
+      - path: main_numbers_A_on/main_number_A_on_8
+        weight: 1
+      - path: main_numbers_A_on/main_number_A_on_9
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: main_number_hit_9
+      takeName: Take 001
+      firstFrame: 40
+      lastFrame: 41
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: main_number_base
+        weight: 1
+      - path: main_numbers_A_hit
+        weight: 1
+      - path: main_numbers_A_hit/main_number_A_hit_0
+        weight: 1
+      - path: main_numbers_A_hit/main_number_A_hit_1
+        weight: 1
+      - path: main_numbers_A_hit/main_number_A_hit_2
+        weight: 1
+      - path: main_numbers_A_hit/main_number_A_hit_3
+        weight: 1
+      - path: main_numbers_A_hit/main_number_A_hit_4
+        weight: 1
+      - path: main_numbers_A_hit/main_number_A_hit_5
+        weight: 1
+      - path: main_numbers_A_hit/main_number_A_hit_6
+        weight: 1
+      - path: main_numbers_A_hit/main_number_A_hit_7
+        weight: 1
+      - path: main_numbers_A_hit/main_number_A_hit_8
+        weight: 1
+      - path: main_numbers_A_hit/main_number_A_hit_9
+        weight: 1
+      - path: main_numbers_A_ng
+        weight: 1
+      - path: main_numbers_A_ng/main_number_A_ng_0
+        weight: 1
+      - path: main_numbers_A_ng/main_number_A_ng_1
+        weight: 1
+      - path: main_numbers_A_ng/main_number_A_ng_2
+        weight: 1
+      - path: main_numbers_A_ng/main_number_A_ng_3
+        weight: 1
+      - path: main_numbers_A_ng/main_number_A_ng_4
+        weight: 1
+      - path: main_numbers_A_ng/main_number_A_ng_5
+        weight: 1
+      - path: main_numbers_A_ng/main_number_A_ng_6
+        weight: 1
+      - path: main_numbers_A_ng/main_number_A_ng_7
+        weight: 1
+      - path: main_numbers_A_ng/main_number_A_ng_8
+        weight: 1
+      - path: main_numbers_A_ng/main_number_A_ng_9
+        weight: 1
+      - path: main_numbers_A_on
+        weight: 1
+      - path: main_numbers_A_on/main_number_A_on_0
+        weight: 1
+      - path: main_numbers_A_on/main_number_A_on_1
+        weight: 1
+      - path: main_numbers_A_on/main_number_A_on_2
+        weight: 1
+      - path: main_numbers_A_on/main_number_A_on_3
+        weight: 1
+      - path: main_numbers_A_on/main_number_A_on_4
+        weight: 1
+      - path: main_numbers_A_on/main_number_A_on_5
+        weight: 1
+      - path: main_numbers_A_on/main_number_A_on_6
+        weight: 1
+      - path: main_numbers_A_on/main_number_A_on_7
+        weight: 1
+      - path: main_numbers_A_on/main_number_A_on_8
+        weight: 1
+      - path: main_numbers_A_on/main_number_A_on_9
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: main_number_ng_0
+      takeName: Take 001
+      firstFrame: 42
+      lastFrame: 43
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: main_number_base
+        weight: 1
+      - path: main_numbers_A_hit
+        weight: 1
+      - path: main_numbers_A_hit/main_number_A_hit_0
+        weight: 1
+      - path: main_numbers_A_hit/main_number_A_hit_1
+        weight: 1
+      - path: main_numbers_A_hit/main_number_A_hit_2
+        weight: 1
+      - path: main_numbers_A_hit/main_number_A_hit_3
+        weight: 1
+      - path: main_numbers_A_hit/main_number_A_hit_4
+        weight: 1
+      - path: main_numbers_A_hit/main_number_A_hit_5
+        weight: 1
+      - path: main_numbers_A_hit/main_number_A_hit_6
+        weight: 1
+      - path: main_numbers_A_hit/main_number_A_hit_7
+        weight: 1
+      - path: main_numbers_A_hit/main_number_A_hit_8
+        weight: 1
+      - path: main_numbers_A_hit/main_number_A_hit_9
+        weight: 1
+      - path: main_numbers_A_ng
+        weight: 1
+      - path: main_numbers_A_ng/main_number_A_ng_0
+        weight: 1
+      - path: main_numbers_A_ng/main_number_A_ng_1
+        weight: 1
+      - path: main_numbers_A_ng/main_number_A_ng_2
+        weight: 1
+      - path: main_numbers_A_ng/main_number_A_ng_3
+        weight: 1
+      - path: main_numbers_A_ng/main_number_A_ng_4
+        weight: 1
+      - path: main_numbers_A_ng/main_number_A_ng_5
+        weight: 1
+      - path: main_numbers_A_ng/main_number_A_ng_6
+        weight: 1
+      - path: main_numbers_A_ng/main_number_A_ng_7
+        weight: 1
+      - path: main_numbers_A_ng/main_number_A_ng_8
+        weight: 1
+      - path: main_numbers_A_ng/main_number_A_ng_9
+        weight: 1
+      - path: main_numbers_A_on
+        weight: 1
+      - path: main_numbers_A_on/main_number_A_on_0
+        weight: 1
+      - path: main_numbers_A_on/main_number_A_on_1
+        weight: 1
+      - path: main_numbers_A_on/main_number_A_on_2
+        weight: 1
+      - path: main_numbers_A_on/main_number_A_on_3
+        weight: 1
+      - path: main_numbers_A_on/main_number_A_on_4
+        weight: 1
+      - path: main_numbers_A_on/main_number_A_on_5
+        weight: 1
+      - path: main_numbers_A_on/main_number_A_on_6
+        weight: 1
+      - path: main_numbers_A_on/main_number_A_on_7
+        weight: 1
+      - path: main_numbers_A_on/main_number_A_on_8
+        weight: 1
+      - path: main_numbers_A_on/main_number_A_on_9
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: main_number_ng_1
+      takeName: Take 001
+      firstFrame: 44
+      lastFrame: 45
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: main_number_base
+        weight: 1
+      - path: main_numbers_A_hit
+        weight: 1
+      - path: main_numbers_A_hit/main_number_A_hit_0
+        weight: 1
+      - path: main_numbers_A_hit/main_number_A_hit_1
+        weight: 1
+      - path: main_numbers_A_hit/main_number_A_hit_2
+        weight: 1
+      - path: main_numbers_A_hit/main_number_A_hit_3
+        weight: 1
+      - path: main_numbers_A_hit/main_number_A_hit_4
+        weight: 1
+      - path: main_numbers_A_hit/main_number_A_hit_5
+        weight: 1
+      - path: main_numbers_A_hit/main_number_A_hit_6
+        weight: 1
+      - path: main_numbers_A_hit/main_number_A_hit_7
+        weight: 1
+      - path: main_numbers_A_hit/main_number_A_hit_8
+        weight: 1
+      - path: main_numbers_A_hit/main_number_A_hit_9
+        weight: 1
+      - path: main_numbers_A_ng
+        weight: 1
+      - path: main_numbers_A_ng/main_number_A_ng_0
+        weight: 1
+      - path: main_numbers_A_ng/main_number_A_ng_1
+        weight: 1
+      - path: main_numbers_A_ng/main_number_A_ng_2
+        weight: 1
+      - path: main_numbers_A_ng/main_number_A_ng_3
+        weight: 1
+      - path: main_numbers_A_ng/main_number_A_ng_4
+        weight: 1
+      - path: main_numbers_A_ng/main_number_A_ng_5
+        weight: 1
+      - path: main_numbers_A_ng/main_number_A_ng_6
+        weight: 1
+      - path: main_numbers_A_ng/main_number_A_ng_7
+        weight: 1
+      - path: main_numbers_A_ng/main_number_A_ng_8
+        weight: 1
+      - path: main_numbers_A_ng/main_number_A_ng_9
+        weight: 1
+      - path: main_numbers_A_on
+        weight: 1
+      - path: main_numbers_A_on/main_number_A_on_0
+        weight: 1
+      - path: main_numbers_A_on/main_number_A_on_1
+        weight: 1
+      - path: main_numbers_A_on/main_number_A_on_2
+        weight: 1
+      - path: main_numbers_A_on/main_number_A_on_3
+        weight: 1
+      - path: main_numbers_A_on/main_number_A_on_4
+        weight: 1
+      - path: main_numbers_A_on/main_number_A_on_5
+        weight: 1
+      - path: main_numbers_A_on/main_number_A_on_6
+        weight: 1
+      - path: main_numbers_A_on/main_number_A_on_7
+        weight: 1
+      - path: main_numbers_A_on/main_number_A_on_8
+        weight: 1
+      - path: main_numbers_A_on/main_number_A_on_9
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: main_number_ng_2
+      takeName: Take 001
+      firstFrame: 46
+      lastFrame: 47
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: main_number_base
+        weight: 1
+      - path: main_numbers_A_hit
+        weight: 1
+      - path: main_numbers_A_hit/main_number_A_hit_0
+        weight: 1
+      - path: main_numbers_A_hit/main_number_A_hit_1
+        weight: 1
+      - path: main_numbers_A_hit/main_number_A_hit_2
+        weight: 1
+      - path: main_numbers_A_hit/main_number_A_hit_3
+        weight: 1
+      - path: main_numbers_A_hit/main_number_A_hit_4
+        weight: 1
+      - path: main_numbers_A_hit/main_number_A_hit_5
+        weight: 1
+      - path: main_numbers_A_hit/main_number_A_hit_6
+        weight: 1
+      - path: main_numbers_A_hit/main_number_A_hit_7
+        weight: 1
+      - path: main_numbers_A_hit/main_number_A_hit_8
+        weight: 1
+      - path: main_numbers_A_hit/main_number_A_hit_9
+        weight: 1
+      - path: main_numbers_A_ng
+        weight: 1
+      - path: main_numbers_A_ng/main_number_A_ng_0
+        weight: 1
+      - path: main_numbers_A_ng/main_number_A_ng_1
+        weight: 1
+      - path: main_numbers_A_ng/main_number_A_ng_2
+        weight: 1
+      - path: main_numbers_A_ng/main_number_A_ng_3
+        weight: 1
+      - path: main_numbers_A_ng/main_number_A_ng_4
+        weight: 1
+      - path: main_numbers_A_ng/main_number_A_ng_5
+        weight: 1
+      - path: main_numbers_A_ng/main_number_A_ng_6
+        weight: 1
+      - path: main_numbers_A_ng/main_number_A_ng_7
+        weight: 1
+      - path: main_numbers_A_ng/main_number_A_ng_8
+        weight: 1
+      - path: main_numbers_A_ng/main_number_A_ng_9
+        weight: 1
+      - path: main_numbers_A_on
+        weight: 1
+      - path: main_numbers_A_on/main_number_A_on_0
+        weight: 1
+      - path: main_numbers_A_on/main_number_A_on_1
+        weight: 1
+      - path: main_numbers_A_on/main_number_A_on_2
+        weight: 1
+      - path: main_numbers_A_on/main_number_A_on_3
+        weight: 1
+      - path: main_numbers_A_on/main_number_A_on_4
+        weight: 1
+      - path: main_numbers_A_on/main_number_A_on_5
+        weight: 1
+      - path: main_numbers_A_on/main_number_A_on_6
+        weight: 1
+      - path: main_numbers_A_on/main_number_A_on_7
+        weight: 1
+      - path: main_numbers_A_on/main_number_A_on_8
+        weight: 1
+      - path: main_numbers_A_on/main_number_A_on_9
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: main_number_ng_3
+      takeName: Take 001
+      firstFrame: 48
+      lastFrame: 49
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: main_number_base
+        weight: 1
+      - path: main_numbers_A_hit
+        weight: 1
+      - path: main_numbers_A_hit/main_number_A_hit_0
+        weight: 1
+      - path: main_numbers_A_hit/main_number_A_hit_1
+        weight: 1
+      - path: main_numbers_A_hit/main_number_A_hit_2
+        weight: 1
+      - path: main_numbers_A_hit/main_number_A_hit_3
+        weight: 1
+      - path: main_numbers_A_hit/main_number_A_hit_4
+        weight: 1
+      - path: main_numbers_A_hit/main_number_A_hit_5
+        weight: 1
+      - path: main_numbers_A_hit/main_number_A_hit_6
+        weight: 1
+      - path: main_numbers_A_hit/main_number_A_hit_7
+        weight: 1
+      - path: main_numbers_A_hit/main_number_A_hit_8
+        weight: 1
+      - path: main_numbers_A_hit/main_number_A_hit_9
+        weight: 1
+      - path: main_numbers_A_ng
+        weight: 1
+      - path: main_numbers_A_ng/main_number_A_ng_0
+        weight: 1
+      - path: main_numbers_A_ng/main_number_A_ng_1
+        weight: 1
+      - path: main_numbers_A_ng/main_number_A_ng_2
+        weight: 1
+      - path: main_numbers_A_ng/main_number_A_ng_3
+        weight: 1
+      - path: main_numbers_A_ng/main_number_A_ng_4
+        weight: 1
+      - path: main_numbers_A_ng/main_number_A_ng_5
+        weight: 1
+      - path: main_numbers_A_ng/main_number_A_ng_6
+        weight: 1
+      - path: main_numbers_A_ng/main_number_A_ng_7
+        weight: 1
+      - path: main_numbers_A_ng/main_number_A_ng_8
+        weight: 1
+      - path: main_numbers_A_ng/main_number_A_ng_9
+        weight: 1
+      - path: main_numbers_A_on
+        weight: 1
+      - path: main_numbers_A_on/main_number_A_on_0
+        weight: 1
+      - path: main_numbers_A_on/main_number_A_on_1
+        weight: 1
+      - path: main_numbers_A_on/main_number_A_on_2
+        weight: 1
+      - path: main_numbers_A_on/main_number_A_on_3
+        weight: 1
+      - path: main_numbers_A_on/main_number_A_on_4
+        weight: 1
+      - path: main_numbers_A_on/main_number_A_on_5
+        weight: 1
+      - path: main_numbers_A_on/main_number_A_on_6
+        weight: 1
+      - path: main_numbers_A_on/main_number_A_on_7
+        weight: 1
+      - path: main_numbers_A_on/main_number_A_on_8
+        weight: 1
+      - path: main_numbers_A_on/main_number_A_on_9
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: main_number_ng_4
+      takeName: Take 001
+      firstFrame: 50
+      lastFrame: 51
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: main_number_base
+        weight: 1
+      - path: main_numbers_A_hit
+        weight: 1
+      - path: main_numbers_A_hit/main_number_A_hit_0
+        weight: 1
+      - path: main_numbers_A_hit/main_number_A_hit_1
+        weight: 1
+      - path: main_numbers_A_hit/main_number_A_hit_2
+        weight: 1
+      - path: main_numbers_A_hit/main_number_A_hit_3
+        weight: 1
+      - path: main_numbers_A_hit/main_number_A_hit_4
+        weight: 1
+      - path: main_numbers_A_hit/main_number_A_hit_5
+        weight: 1
+      - path: main_numbers_A_hit/main_number_A_hit_6
+        weight: 1
+      - path: main_numbers_A_hit/main_number_A_hit_7
+        weight: 1
+      - path: main_numbers_A_hit/main_number_A_hit_8
+        weight: 1
+      - path: main_numbers_A_hit/main_number_A_hit_9
+        weight: 1
+      - path: main_numbers_A_ng
+        weight: 1
+      - path: main_numbers_A_ng/main_number_A_ng_0
+        weight: 1
+      - path: main_numbers_A_ng/main_number_A_ng_1
+        weight: 1
+      - path: main_numbers_A_ng/main_number_A_ng_2
+        weight: 1
+      - path: main_numbers_A_ng/main_number_A_ng_3
+        weight: 1
+      - path: main_numbers_A_ng/main_number_A_ng_4
+        weight: 1
+      - path: main_numbers_A_ng/main_number_A_ng_5
+        weight: 1
+      - path: main_numbers_A_ng/main_number_A_ng_6
+        weight: 1
+      - path: main_numbers_A_ng/main_number_A_ng_7
+        weight: 1
+      - path: main_numbers_A_ng/main_number_A_ng_8
+        weight: 1
+      - path: main_numbers_A_ng/main_number_A_ng_9
+        weight: 1
+      - path: main_numbers_A_on
+        weight: 1
+      - path: main_numbers_A_on/main_number_A_on_0
+        weight: 1
+      - path: main_numbers_A_on/main_number_A_on_1
+        weight: 1
+      - path: main_numbers_A_on/main_number_A_on_2
+        weight: 1
+      - path: main_numbers_A_on/main_number_A_on_3
+        weight: 1
+      - path: main_numbers_A_on/main_number_A_on_4
+        weight: 1
+      - path: main_numbers_A_on/main_number_A_on_5
+        weight: 1
+      - path: main_numbers_A_on/main_number_A_on_6
+        weight: 1
+      - path: main_numbers_A_on/main_number_A_on_7
+        weight: 1
+      - path: main_numbers_A_on/main_number_A_on_8
+        weight: 1
+      - path: main_numbers_A_on/main_number_A_on_9
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: main_number_ng_5
+      takeName: Take 001
+      firstFrame: 52
+      lastFrame: 53
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: main_number_base
+        weight: 1
+      - path: main_numbers_A_hit
+        weight: 1
+      - path: main_numbers_A_hit/main_number_A_hit_0
+        weight: 1
+      - path: main_numbers_A_hit/main_number_A_hit_1
+        weight: 1
+      - path: main_numbers_A_hit/main_number_A_hit_2
+        weight: 1
+      - path: main_numbers_A_hit/main_number_A_hit_3
+        weight: 1
+      - path: main_numbers_A_hit/main_number_A_hit_4
+        weight: 1
+      - path: main_numbers_A_hit/main_number_A_hit_5
+        weight: 1
+      - path: main_numbers_A_hit/main_number_A_hit_6
+        weight: 1
+      - path: main_numbers_A_hit/main_number_A_hit_7
+        weight: 1
+      - path: main_numbers_A_hit/main_number_A_hit_8
+        weight: 1
+      - path: main_numbers_A_hit/main_number_A_hit_9
+        weight: 1
+      - path: main_numbers_A_ng
+        weight: 1
+      - path: main_numbers_A_ng/main_number_A_ng_0
+        weight: 1
+      - path: main_numbers_A_ng/main_number_A_ng_1
+        weight: 1
+      - path: main_numbers_A_ng/main_number_A_ng_2
+        weight: 1
+      - path: main_numbers_A_ng/main_number_A_ng_3
+        weight: 1
+      - path: main_numbers_A_ng/main_number_A_ng_4
+        weight: 1
+      - path: main_numbers_A_ng/main_number_A_ng_5
+        weight: 1
+      - path: main_numbers_A_ng/main_number_A_ng_6
+        weight: 1
+      - path: main_numbers_A_ng/main_number_A_ng_7
+        weight: 1
+      - path: main_numbers_A_ng/main_number_A_ng_8
+        weight: 1
+      - path: main_numbers_A_ng/main_number_A_ng_9
+        weight: 1
+      - path: main_numbers_A_on
+        weight: 1
+      - path: main_numbers_A_on/main_number_A_on_0
+        weight: 1
+      - path: main_numbers_A_on/main_number_A_on_1
+        weight: 1
+      - path: main_numbers_A_on/main_number_A_on_2
+        weight: 1
+      - path: main_numbers_A_on/main_number_A_on_3
+        weight: 1
+      - path: main_numbers_A_on/main_number_A_on_4
+        weight: 1
+      - path: main_numbers_A_on/main_number_A_on_5
+        weight: 1
+      - path: main_numbers_A_on/main_number_A_on_6
+        weight: 1
+      - path: main_numbers_A_on/main_number_A_on_7
+        weight: 1
+      - path: main_numbers_A_on/main_number_A_on_8
+        weight: 1
+      - path: main_numbers_A_on/main_number_A_on_9
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: main_number_ng_6
+      takeName: Take 001
+      firstFrame: 54
+      lastFrame: 55
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: main_number_base
+        weight: 1
+      - path: main_numbers_A_hit
+        weight: 1
+      - path: main_numbers_A_hit/main_number_A_hit_0
+        weight: 1
+      - path: main_numbers_A_hit/main_number_A_hit_1
+        weight: 1
+      - path: main_numbers_A_hit/main_number_A_hit_2
+        weight: 1
+      - path: main_numbers_A_hit/main_number_A_hit_3
+        weight: 1
+      - path: main_numbers_A_hit/main_number_A_hit_4
+        weight: 1
+      - path: main_numbers_A_hit/main_number_A_hit_5
+        weight: 1
+      - path: main_numbers_A_hit/main_number_A_hit_6
+        weight: 1
+      - path: main_numbers_A_hit/main_number_A_hit_7
+        weight: 1
+      - path: main_numbers_A_hit/main_number_A_hit_8
+        weight: 1
+      - path: main_numbers_A_hit/main_number_A_hit_9
+        weight: 1
+      - path: main_numbers_A_ng
+        weight: 1
+      - path: main_numbers_A_ng/main_number_A_ng_0
+        weight: 1
+      - path: main_numbers_A_ng/main_number_A_ng_1
+        weight: 1
+      - path: main_numbers_A_ng/main_number_A_ng_2
+        weight: 1
+      - path: main_numbers_A_ng/main_number_A_ng_3
+        weight: 1
+      - path: main_numbers_A_ng/main_number_A_ng_4
+        weight: 1
+      - path: main_numbers_A_ng/main_number_A_ng_5
+        weight: 1
+      - path: main_numbers_A_ng/main_number_A_ng_6
+        weight: 1
+      - path: main_numbers_A_ng/main_number_A_ng_7
+        weight: 1
+      - path: main_numbers_A_ng/main_number_A_ng_8
+        weight: 1
+      - path: main_numbers_A_ng/main_number_A_ng_9
+        weight: 1
+      - path: main_numbers_A_on
+        weight: 1
+      - path: main_numbers_A_on/main_number_A_on_0
+        weight: 1
+      - path: main_numbers_A_on/main_number_A_on_1
+        weight: 1
+      - path: main_numbers_A_on/main_number_A_on_2
+        weight: 1
+      - path: main_numbers_A_on/main_number_A_on_3
+        weight: 1
+      - path: main_numbers_A_on/main_number_A_on_4
+        weight: 1
+      - path: main_numbers_A_on/main_number_A_on_5
+        weight: 1
+      - path: main_numbers_A_on/main_number_A_on_6
+        weight: 1
+      - path: main_numbers_A_on/main_number_A_on_7
+        weight: 1
+      - path: main_numbers_A_on/main_number_A_on_8
+        weight: 1
+      - path: main_numbers_A_on/main_number_A_on_9
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: main_number_ng_7
+      takeName: Take 001
+      firstFrame: 56
+      lastFrame: 57
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: main_number_base
+        weight: 1
+      - path: main_numbers_A_hit
+        weight: 1
+      - path: main_numbers_A_hit/main_number_A_hit_0
+        weight: 1
+      - path: main_numbers_A_hit/main_number_A_hit_1
+        weight: 1
+      - path: main_numbers_A_hit/main_number_A_hit_2
+        weight: 1
+      - path: main_numbers_A_hit/main_number_A_hit_3
+        weight: 1
+      - path: main_numbers_A_hit/main_number_A_hit_4
+        weight: 1
+      - path: main_numbers_A_hit/main_number_A_hit_5
+        weight: 1
+      - path: main_numbers_A_hit/main_number_A_hit_6
+        weight: 1
+      - path: main_numbers_A_hit/main_number_A_hit_7
+        weight: 1
+      - path: main_numbers_A_hit/main_number_A_hit_8
+        weight: 1
+      - path: main_numbers_A_hit/main_number_A_hit_9
+        weight: 1
+      - path: main_numbers_A_ng
+        weight: 1
+      - path: main_numbers_A_ng/main_number_A_ng_0
+        weight: 1
+      - path: main_numbers_A_ng/main_number_A_ng_1
+        weight: 1
+      - path: main_numbers_A_ng/main_number_A_ng_2
+        weight: 1
+      - path: main_numbers_A_ng/main_number_A_ng_3
+        weight: 1
+      - path: main_numbers_A_ng/main_number_A_ng_4
+        weight: 1
+      - path: main_numbers_A_ng/main_number_A_ng_5
+        weight: 1
+      - path: main_numbers_A_ng/main_number_A_ng_6
+        weight: 1
+      - path: main_numbers_A_ng/main_number_A_ng_7
+        weight: 1
+      - path: main_numbers_A_ng/main_number_A_ng_8
+        weight: 1
+      - path: main_numbers_A_ng/main_number_A_ng_9
+        weight: 1
+      - path: main_numbers_A_on
+        weight: 1
+      - path: main_numbers_A_on/main_number_A_on_0
+        weight: 1
+      - path: main_numbers_A_on/main_number_A_on_1
+        weight: 1
+      - path: main_numbers_A_on/main_number_A_on_2
+        weight: 1
+      - path: main_numbers_A_on/main_number_A_on_3
+        weight: 1
+      - path: main_numbers_A_on/main_number_A_on_4
+        weight: 1
+      - path: main_numbers_A_on/main_number_A_on_5
+        weight: 1
+      - path: main_numbers_A_on/main_number_A_on_6
+        weight: 1
+      - path: main_numbers_A_on/main_number_A_on_7
+        weight: 1
+      - path: main_numbers_A_on/main_number_A_on_8
+        weight: 1
+      - path: main_numbers_A_on/main_number_A_on_9
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: main_number_ng_8
+      takeName: Take 001
+      firstFrame: 58
+      lastFrame: 59
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: main_number_base
+        weight: 1
+      - path: main_numbers_A_hit
+        weight: 1
+      - path: main_numbers_A_hit/main_number_A_hit_0
+        weight: 1
+      - path: main_numbers_A_hit/main_number_A_hit_1
+        weight: 1
+      - path: main_numbers_A_hit/main_number_A_hit_2
+        weight: 1
+      - path: main_numbers_A_hit/main_number_A_hit_3
+        weight: 1
+      - path: main_numbers_A_hit/main_number_A_hit_4
+        weight: 1
+      - path: main_numbers_A_hit/main_number_A_hit_5
+        weight: 1
+      - path: main_numbers_A_hit/main_number_A_hit_6
+        weight: 1
+      - path: main_numbers_A_hit/main_number_A_hit_7
+        weight: 1
+      - path: main_numbers_A_hit/main_number_A_hit_8
+        weight: 1
+      - path: main_numbers_A_hit/main_number_A_hit_9
+        weight: 1
+      - path: main_numbers_A_ng
+        weight: 1
+      - path: main_numbers_A_ng/main_number_A_ng_0
+        weight: 1
+      - path: main_numbers_A_ng/main_number_A_ng_1
+        weight: 1
+      - path: main_numbers_A_ng/main_number_A_ng_2
+        weight: 1
+      - path: main_numbers_A_ng/main_number_A_ng_3
+        weight: 1
+      - path: main_numbers_A_ng/main_number_A_ng_4
+        weight: 1
+      - path: main_numbers_A_ng/main_number_A_ng_5
+        weight: 1
+      - path: main_numbers_A_ng/main_number_A_ng_6
+        weight: 1
+      - path: main_numbers_A_ng/main_number_A_ng_7
+        weight: 1
+      - path: main_numbers_A_ng/main_number_A_ng_8
+        weight: 1
+      - path: main_numbers_A_ng/main_number_A_ng_9
+        weight: 1
+      - path: main_numbers_A_on
+        weight: 1
+      - path: main_numbers_A_on/main_number_A_on_0
+        weight: 1
+      - path: main_numbers_A_on/main_number_A_on_1
+        weight: 1
+      - path: main_numbers_A_on/main_number_A_on_2
+        weight: 1
+      - path: main_numbers_A_on/main_number_A_on_3
+        weight: 1
+      - path: main_numbers_A_on/main_number_A_on_4
+        weight: 1
+      - path: main_numbers_A_on/main_number_A_on_5
+        weight: 1
+      - path: main_numbers_A_on/main_number_A_on_6
+        weight: 1
+      - path: main_numbers_A_on/main_number_A_on_7
+        weight: 1
+      - path: main_numbers_A_on/main_number_A_on_8
+        weight: 1
+      - path: main_numbers_A_on/main_number_A_on_9
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: main_number_ng_9
+      takeName: Take 001
+      firstFrame: 60
+      lastFrame: 61
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: main_number_base
+        weight: 1
+      - path: main_numbers_A_hit
+        weight: 1
+      - path: main_numbers_A_hit/main_number_A_hit_0
+        weight: 1
+      - path: main_numbers_A_hit/main_number_A_hit_1
+        weight: 1
+      - path: main_numbers_A_hit/main_number_A_hit_2
+        weight: 1
+      - path: main_numbers_A_hit/main_number_A_hit_3
+        weight: 1
+      - path: main_numbers_A_hit/main_number_A_hit_4
+        weight: 1
+      - path: main_numbers_A_hit/main_number_A_hit_5
+        weight: 1
+      - path: main_numbers_A_hit/main_number_A_hit_6
+        weight: 1
+      - path: main_numbers_A_hit/main_number_A_hit_7
+        weight: 1
+      - path: main_numbers_A_hit/main_number_A_hit_8
+        weight: 1
+      - path: main_numbers_A_hit/main_number_A_hit_9
+        weight: 1
+      - path: main_numbers_A_ng
+        weight: 1
+      - path: main_numbers_A_ng/main_number_A_ng_0
+        weight: 1
+      - path: main_numbers_A_ng/main_number_A_ng_1
+        weight: 1
+      - path: main_numbers_A_ng/main_number_A_ng_2
+        weight: 1
+      - path: main_numbers_A_ng/main_number_A_ng_3
+        weight: 1
+      - path: main_numbers_A_ng/main_number_A_ng_4
+        weight: 1
+      - path: main_numbers_A_ng/main_number_A_ng_5
+        weight: 1
+      - path: main_numbers_A_ng/main_number_A_ng_6
+        weight: 1
+      - path: main_numbers_A_ng/main_number_A_ng_7
+        weight: 1
+      - path: main_numbers_A_ng/main_number_A_ng_8
+        weight: 1
+      - path: main_numbers_A_ng/main_number_A_ng_9
+        weight: 1
+      - path: main_numbers_A_on
+        weight: 1
+      - path: main_numbers_A_on/main_number_A_on_0
+        weight: 1
+      - path: main_numbers_A_on/main_number_A_on_1
+        weight: 1
+      - path: main_numbers_A_on/main_number_A_on_2
+        weight: 1
+      - path: main_numbers_A_on/main_number_A_on_3
+        weight: 1
+      - path: main_numbers_A_on/main_number_A_on_4
+        weight: 1
+      - path: main_numbers_A_on/main_number_A_on_5
+        weight: 1
+      - path: main_numbers_A_on/main_number_A_on_6
+        weight: 1
+      - path: main_numbers_A_on/main_number_A_on_7
+        weight: 1
+      - path: main_numbers_A_on/main_number_A_on_8
+        weight: 1
+      - path: main_numbers_A_on/main_number_A_on_9
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1000
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
