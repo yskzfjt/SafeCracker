@@ -1,0 +1,688 @@
+fileFormatVersion: 2
+guid: 3941404c769c97c4f921a16a8761ef57
+timeCreated: 1448874932
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: cre_number_0
+    100004: cre_number_1
+    100006: cre_number_2
+    100008: cre_number_3
+    100010: cre_number_4
+    100012: cre_number_5
+    100014: cre_number_6
+    100016: cre_number_7
+    100018: cre_number_8
+    100020: cre_number_9
+    100022: cre_number_blank
+    400000: //RootNode
+    400002: cre_number_0
+    400004: cre_number_1
+    400006: cre_number_2
+    400008: cre_number_3
+    400010: cre_number_4
+    400012: cre_number_5
+    400014: cre_number_6
+    400016: cre_number_7
+    400018: cre_number_8
+    400020: cre_number_9
+    400022: cre_number_blank
+    2300000: cre_number_0
+    2300002: cre_number_1
+    2300004: cre_number_2
+    2300006: cre_number_3
+    2300008: cre_number_4
+    2300010: cre_number_5
+    2300012: cre_number_6
+    2300014: cre_number_7
+    2300016: cre_number_8
+    2300018: cre_number_9
+    2300020: cre_number_blank
+    3300000: cre_number_0
+    3300002: cre_number_1
+    3300004: cre_number_2
+    3300006: cre_number_3
+    3300008: cre_number_4
+    3300010: cre_number_5
+    3300012: cre_number_6
+    3300014: cre_number_7
+    3300016: cre_number_8
+    3300018: cre_number_9
+    3300020: cre_number_blank
+    4300000: cre_number_0
+    4300002: cre_number_1
+    4300004: cre_number_2
+    4300006: cre_number_3
+    4300008: cre_number_4
+    4300010: cre_number_5
+    4300012: cre_number_6
+    4300014: cre_number_7
+    4300016: cre_number_8
+    4300018: cre_number_9
+    4300020: cre_number_blank
+    7400000: anim_1
+    7400002: anim_0
+    7400004: anim_2
+    7400006: anim_3
+    7400008: anim_4
+    7400010: anim_5
+    7400012: anim_6
+    7400014: anim_7
+    7400016: anim_8
+    7400018: anim_9
+    7400020: anim_blank
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: anim_0
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 1
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: cre_number_0
+        weight: 1
+      - path: cre_number_1
+        weight: 1
+      - path: cre_number_2
+        weight: 1
+      - path: cre_number_3
+        weight: 1
+      - path: cre_number_4
+        weight: 1
+      - path: cre_number_5
+        weight: 1
+      - path: cre_number_6
+        weight: 1
+      - path: cre_number_7
+        weight: 1
+      - path: cre_number_8
+        weight: 1
+      - path: cre_number_9
+        weight: 1
+      - path: cre_number_blank
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: anim_1
+      takeName: Take 001
+      firstFrame: 2
+      lastFrame: 3
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: cre_number_0
+        weight: 1
+      - path: cre_number_1
+        weight: 1
+      - path: cre_number_2
+        weight: 1
+      - path: cre_number_3
+        weight: 1
+      - path: cre_number_4
+        weight: 1
+      - path: cre_number_5
+        weight: 1
+      - path: cre_number_6
+        weight: 1
+      - path: cre_number_7
+        weight: 1
+      - path: cre_number_8
+        weight: 1
+      - path: cre_number_9
+        weight: 1
+      - path: cre_number_blank
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: anim_2
+      takeName: Take 001
+      firstFrame: 4
+      lastFrame: 5
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: cre_number_0
+        weight: 1
+      - path: cre_number_1
+        weight: 1
+      - path: cre_number_2
+        weight: 1
+      - path: cre_number_3
+        weight: 1
+      - path: cre_number_4
+        weight: 1
+      - path: cre_number_5
+        weight: 1
+      - path: cre_number_6
+        weight: 1
+      - path: cre_number_7
+        weight: 1
+      - path: cre_number_8
+        weight: 1
+      - path: cre_number_9
+        weight: 1
+      - path: cre_number_blank
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: anim_3
+      takeName: Take 001
+      firstFrame: 6
+      lastFrame: 7
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: cre_number_0
+        weight: 1
+      - path: cre_number_1
+        weight: 1
+      - path: cre_number_2
+        weight: 1
+      - path: cre_number_3
+        weight: 1
+      - path: cre_number_4
+        weight: 1
+      - path: cre_number_5
+        weight: 1
+      - path: cre_number_6
+        weight: 1
+      - path: cre_number_7
+        weight: 1
+      - path: cre_number_8
+        weight: 1
+      - path: cre_number_9
+        weight: 1
+      - path: cre_number_blank
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: anim_4
+      takeName: Take 001
+      firstFrame: 8
+      lastFrame: 9
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: cre_number_0
+        weight: 1
+      - path: cre_number_1
+        weight: 1
+      - path: cre_number_2
+        weight: 1
+      - path: cre_number_3
+        weight: 1
+      - path: cre_number_4
+        weight: 1
+      - path: cre_number_5
+        weight: 1
+      - path: cre_number_6
+        weight: 1
+      - path: cre_number_7
+        weight: 1
+      - path: cre_number_8
+        weight: 1
+      - path: cre_number_9
+        weight: 1
+      - path: cre_number_blank
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: anim_5
+      takeName: Take 001
+      firstFrame: 10
+      lastFrame: 11
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: cre_number_0
+        weight: 1
+      - path: cre_number_1
+        weight: 1
+      - path: cre_number_2
+        weight: 1
+      - path: cre_number_3
+        weight: 1
+      - path: cre_number_4
+        weight: 1
+      - path: cre_number_5
+        weight: 1
+      - path: cre_number_6
+        weight: 1
+      - path: cre_number_7
+        weight: 1
+      - path: cre_number_8
+        weight: 1
+      - path: cre_number_9
+        weight: 1
+      - path: cre_number_blank
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: anim_6
+      takeName: Take 001
+      firstFrame: 12
+      lastFrame: 13
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: cre_number_0
+        weight: 1
+      - path: cre_number_1
+        weight: 1
+      - path: cre_number_2
+        weight: 1
+      - path: cre_number_3
+        weight: 1
+      - path: cre_number_4
+        weight: 1
+      - path: cre_number_5
+        weight: 1
+      - path: cre_number_6
+        weight: 1
+      - path: cre_number_7
+        weight: 1
+      - path: cre_number_8
+        weight: 1
+      - path: cre_number_9
+        weight: 1
+      - path: cre_number_blank
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: anim_7
+      takeName: Take 001
+      firstFrame: 14
+      lastFrame: 15
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: cre_number_0
+        weight: 1
+      - path: cre_number_1
+        weight: 1
+      - path: cre_number_2
+        weight: 1
+      - path: cre_number_3
+        weight: 1
+      - path: cre_number_4
+        weight: 1
+      - path: cre_number_5
+        weight: 1
+      - path: cre_number_6
+        weight: 1
+      - path: cre_number_7
+        weight: 1
+      - path: cre_number_8
+        weight: 1
+      - path: cre_number_9
+        weight: 1
+      - path: cre_number_blank
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: anim_8
+      takeName: Take 001
+      firstFrame: 16
+      lastFrame: 17
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: cre_number_0
+        weight: 1
+      - path: cre_number_1
+        weight: 1
+      - path: cre_number_2
+        weight: 1
+      - path: cre_number_3
+        weight: 1
+      - path: cre_number_4
+        weight: 1
+      - path: cre_number_5
+        weight: 1
+      - path: cre_number_6
+        weight: 1
+      - path: cre_number_7
+        weight: 1
+      - path: cre_number_8
+        weight: 1
+      - path: cre_number_9
+        weight: 1
+      - path: cre_number_blank
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: anim_9
+      takeName: Take 001
+      firstFrame: 18
+      lastFrame: 19
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: cre_number_0
+        weight: 1
+      - path: cre_number_1
+        weight: 1
+      - path: cre_number_2
+        weight: 1
+      - path: cre_number_3
+        weight: 1
+      - path: cre_number_4
+        weight: 1
+      - path: cre_number_5
+        weight: 1
+      - path: cre_number_6
+        weight: 1
+      - path: cre_number_7
+        weight: 1
+      - path: cre_number_8
+        weight: 1
+      - path: cre_number_9
+        weight: 1
+      - path: cre_number_blank
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: anim_blank
+      takeName: Take 001
+      firstFrame: 20
+      lastFrame: 21
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: cre_number_0
+        weight: 1
+      - path: cre_number_1
+        weight: 1
+      - path: cre_number_2
+        weight: 1
+      - path: cre_number_3
+        weight: 1
+      - path: cre_number_4
+        weight: 1
+      - path: cre_number_5
+        weight: 1
+      - path: cre_number_6
+        weight: 1
+      - path: cre_number_7
+        weight: 1
+      - path: cre_number_8
+        weight: 1
+      - path: cre_number_9
+        weight: 1
+      - path: cre_number_blank
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1000
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

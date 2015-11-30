@@ -1,0 +1,1668 @@
+fileFormatVersion: 2
+guid: d0a9909968a6ecf4fb4e81531ee65c0f
+timeCreated: 1448882219
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Tries_number_blank
+    100004: Tries_number_hit_0
+    100006: Tries_number_hit_1
+    100008: Tries_number_hit_2
+    100010: Tries_number_hit_3
+    100012: Tries_number_hit_4
+    100014: Tries_number_hit_5
+    100016: Tries_number_hit_6
+    100018: Tries_number_hit_7
+    100020: Tries_number_hit_8
+    100022: Tries_number_hit_9
+    100024: Tries_number_miss_0
+    100026: Tries_number_miss_1
+    100028: Tries_number_miss_2
+    100030: Tries_number_miss_3
+    100032: Tries_number_miss_4
+    100034: Tries_number_miss_5
+    100036: Tries_number_miss_6
+    100038: Tries_number_miss_7
+    100040: Tries_number_miss_8
+    100042: Tries_number_miss_9
+    400000: //RootNode
+    400002: Tries_number_blank
+    400004: Tries_number_hit_0
+    400006: Tries_number_hit_1
+    400008: Tries_number_hit_2
+    400010: Tries_number_hit_3
+    400012: Tries_number_hit_4
+    400014: Tries_number_hit_5
+    400016: Tries_number_hit_6
+    400018: Tries_number_hit_7
+    400020: Tries_number_hit_8
+    400022: Tries_number_hit_9
+    400024: Tries_number_miss_0
+    400026: Tries_number_miss_1
+    400028: Tries_number_miss_2
+    400030: Tries_number_miss_3
+    400032: Tries_number_miss_4
+    400034: Tries_number_miss_5
+    400036: Tries_number_miss_6
+    400038: Tries_number_miss_7
+    400040: Tries_number_miss_8
+    400042: Tries_number_miss_9
+    2300000: Tries_number_blank
+    2300002: Tries_number_hit_0
+    2300004: Tries_number_hit_1
+    2300006: Tries_number_hit_2
+    2300008: Tries_number_hit_3
+    2300010: Tries_number_hit_4
+    2300012: Tries_number_hit_5
+    2300014: Tries_number_hit_6
+    2300016: Tries_number_hit_7
+    2300018: Tries_number_hit_8
+    2300020: Tries_number_hit_9
+    2300022: Tries_number_miss_0
+    2300024: Tries_number_miss_1
+    2300026: Tries_number_miss_2
+    2300028: Tries_number_miss_3
+    2300030: Tries_number_miss_4
+    2300032: Tries_number_miss_5
+    2300034: Tries_number_miss_6
+    2300036: Tries_number_miss_7
+    2300038: Tries_number_miss_8
+    2300040: Tries_number_miss_9
+    3300000: Tries_number_blank
+    3300002: Tries_number_hit_0
+    3300004: Tries_number_hit_1
+    3300006: Tries_number_hit_2
+    3300008: Tries_number_hit_3
+    3300010: Tries_number_hit_4
+    3300012: Tries_number_hit_5
+    3300014: Tries_number_hit_6
+    3300016: Tries_number_hit_7
+    3300018: Tries_number_hit_8
+    3300020: Tries_number_hit_9
+    3300022: Tries_number_miss_0
+    3300024: Tries_number_miss_1
+    3300026: Tries_number_miss_2
+    3300028: Tries_number_miss_3
+    3300030: Tries_number_miss_4
+    3300032: Tries_number_miss_5
+    3300034: Tries_number_miss_6
+    3300036: Tries_number_miss_7
+    3300038: Tries_number_miss_8
+    3300040: Tries_number_miss_9
+    4300000: Tries_number_miss_0
+    4300002: Tries_number_miss_1
+    4300004: Tries_number_miss_2
+    4300006: Tries_number_miss_3
+    4300008: Tries_number_miss_4
+    4300010: Tries_number_miss_5
+    4300012: Tries_number_miss_6
+    4300014: Tries_number_miss_7
+    4300016: Tries_number_miss_8
+    4300018: Tries_number_miss_9
+    4300020: Tries_number_hit_0
+    4300022: Tries_number_hit_1
+    4300024: Tries_number_hit_2
+    4300026: Tries_number_hit_3
+    4300028: Tries_number_hit_4
+    4300030: Tries_number_hit_5
+    4300032: Tries_number_hit_6
+    4300034: Tries_number_hit_7
+    4300036: Tries_number_hit_8
+    4300038: Tries_number_hit_9
+    4300040: Tries_number_blank
+    7400000: anim_ng_0
+    7400002: anim_ng_1
+    7400004: anim_ng_2
+    7400006: anim_ng_3
+    7400008: anim_ng_4
+    7400010: anim_ng_5
+    7400012: anim_ng_6
+    7400014: anim_ng_7
+    7400016: anim_ng_8
+    7400018: anim_ng_9
+    7400020: anim_hit_0
+    7400022: anim_hit_1
+    7400024: anim_hit_2
+    7400026: anim_hit_3
+    7400028: anim_hit_4
+    7400030: anim_hit_5
+    7400032: anim_hit_6
+    7400034: anim_hit_7
+    7400036: anim_hit_8
+    7400038: anim_hit_9
+    7400040: anim_blank
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: anim_ng_0
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 1
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Tries_number_blank
+        weight: 1
+      - path: Tries_number_hit_0
+        weight: 1
+      - path: Tries_number_hit_1
+        weight: 1
+      - path: Tries_number_hit_2
+        weight: 1
+      - path: Tries_number_hit_3
+        weight: 1
+      - path: Tries_number_hit_4
+        weight: 1
+      - path: Tries_number_hit_5
+        weight: 1
+      - path: Tries_number_hit_6
+        weight: 1
+      - path: Tries_number_hit_7
+        weight: 1
+      - path: Tries_number_hit_8
+        weight: 1
+      - path: Tries_number_hit_9
+        weight: 1
+      - path: Tries_number_miss_0
+        weight: 1
+      - path: Tries_number_miss_1
+        weight: 1
+      - path: Tries_number_miss_2
+        weight: 1
+      - path: Tries_number_miss_3
+        weight: 1
+      - path: Tries_number_miss_4
+        weight: 1
+      - path: Tries_number_miss_5
+        weight: 1
+      - path: Tries_number_miss_6
+        weight: 1
+      - path: Tries_number_miss_7
+        weight: 1
+      - path: Tries_number_miss_8
+        weight: 1
+      - path: Tries_number_miss_9
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: anim_ng_1
+      takeName: Take 001
+      firstFrame: 2
+      lastFrame: 3
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Tries_number_blank
+        weight: 1
+      - path: Tries_number_hit_0
+        weight: 1
+      - path: Tries_number_hit_1
+        weight: 1
+      - path: Tries_number_hit_2
+        weight: 1
+      - path: Tries_number_hit_3
+        weight: 1
+      - path: Tries_number_hit_4
+        weight: 1
+      - path: Tries_number_hit_5
+        weight: 1
+      - path: Tries_number_hit_6
+        weight: 1
+      - path: Tries_number_hit_7
+        weight: 1
+      - path: Tries_number_hit_8
+        weight: 1
+      - path: Tries_number_hit_9
+        weight: 1
+      - path: Tries_number_miss_0
+        weight: 1
+      - path: Tries_number_miss_1
+        weight: 1
+      - path: Tries_number_miss_2
+        weight: 1
+      - path: Tries_number_miss_3
+        weight: 1
+      - path: Tries_number_miss_4
+        weight: 1
+      - path: Tries_number_miss_5
+        weight: 1
+      - path: Tries_number_miss_6
+        weight: 1
+      - path: Tries_number_miss_7
+        weight: 1
+      - path: Tries_number_miss_8
+        weight: 1
+      - path: Tries_number_miss_9
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: anim_ng_2
+      takeName: Take 001
+      firstFrame: 4
+      lastFrame: 4
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Tries_number_blank
+        weight: 1
+      - path: Tries_number_hit_0
+        weight: 1
+      - path: Tries_number_hit_1
+        weight: 1
+      - path: Tries_number_hit_2
+        weight: 1
+      - path: Tries_number_hit_3
+        weight: 1
+      - path: Tries_number_hit_4
+        weight: 1
+      - path: Tries_number_hit_5
+        weight: 1
+      - path: Tries_number_hit_6
+        weight: 1
+      - path: Tries_number_hit_7
+        weight: 1
+      - path: Tries_number_hit_8
+        weight: 1
+      - path: Tries_number_hit_9
+        weight: 1
+      - path: Tries_number_miss_0
+        weight: 1
+      - path: Tries_number_miss_1
+        weight: 1
+      - path: Tries_number_miss_2
+        weight: 1
+      - path: Tries_number_miss_3
+        weight: 1
+      - path: Tries_number_miss_4
+        weight: 1
+      - path: Tries_number_miss_5
+        weight: 1
+      - path: Tries_number_miss_6
+        weight: 1
+      - path: Tries_number_miss_7
+        weight: 1
+      - path: Tries_number_miss_8
+        weight: 1
+      - path: Tries_number_miss_9
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: anim_ng_3
+      takeName: Take 001
+      firstFrame: 6
+      lastFrame: 7
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Tries_number_blank
+        weight: 1
+      - path: Tries_number_hit_0
+        weight: 1
+      - path: Tries_number_hit_1
+        weight: 1
+      - path: Tries_number_hit_2
+        weight: 1
+      - path: Tries_number_hit_3
+        weight: 1
+      - path: Tries_number_hit_4
+        weight: 1
+      - path: Tries_number_hit_5
+        weight: 1
+      - path: Tries_number_hit_6
+        weight: 1
+      - path: Tries_number_hit_7
+        weight: 1
+      - path: Tries_number_hit_8
+        weight: 1
+      - path: Tries_number_hit_9
+        weight: 1
+      - path: Tries_number_miss_0
+        weight: 1
+      - path: Tries_number_miss_1
+        weight: 1
+      - path: Tries_number_miss_2
+        weight: 1
+      - path: Tries_number_miss_3
+        weight: 1
+      - path: Tries_number_miss_4
+        weight: 1
+      - path: Tries_number_miss_5
+        weight: 1
+      - path: Tries_number_miss_6
+        weight: 1
+      - path: Tries_number_miss_7
+        weight: 1
+      - path: Tries_number_miss_8
+        weight: 1
+      - path: Tries_number_miss_9
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: anim_ng_4
+      takeName: Take 001
+      firstFrame: 8
+      lastFrame: 9
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Tries_number_blank
+        weight: 1
+      - path: Tries_number_hit_0
+        weight: 1
+      - path: Tries_number_hit_1
+        weight: 1
+      - path: Tries_number_hit_2
+        weight: 1
+      - path: Tries_number_hit_3
+        weight: 1
+      - path: Tries_number_hit_4
+        weight: 1
+      - path: Tries_number_hit_5
+        weight: 1
+      - path: Tries_number_hit_6
+        weight: 1
+      - path: Tries_number_hit_7
+        weight: 1
+      - path: Tries_number_hit_8
+        weight: 1
+      - path: Tries_number_hit_9
+        weight: 1
+      - path: Tries_number_miss_0
+        weight: 1
+      - path: Tries_number_miss_1
+        weight: 1
+      - path: Tries_number_miss_2
+        weight: 1
+      - path: Tries_number_miss_3
+        weight: 1
+      - path: Tries_number_miss_4
+        weight: 1
+      - path: Tries_number_miss_5
+        weight: 1
+      - path: Tries_number_miss_6
+        weight: 1
+      - path: Tries_number_miss_7
+        weight: 1
+      - path: Tries_number_miss_8
+        weight: 1
+      - path: Tries_number_miss_9
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: anim_ng_5
+      takeName: Take 001
+      firstFrame: 10
+      lastFrame: 11
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Tries_number_blank
+        weight: 1
+      - path: Tries_number_hit_0
+        weight: 1
+      - path: Tries_number_hit_1
+        weight: 1
+      - path: Tries_number_hit_2
+        weight: 1
+      - path: Tries_number_hit_3
+        weight: 1
+      - path: Tries_number_hit_4
+        weight: 1
+      - path: Tries_number_hit_5
+        weight: 1
+      - path: Tries_number_hit_6
+        weight: 1
+      - path: Tries_number_hit_7
+        weight: 1
+      - path: Tries_number_hit_8
+        weight: 1
+      - path: Tries_number_hit_9
+        weight: 1
+      - path: Tries_number_miss_0
+        weight: 1
+      - path: Tries_number_miss_1
+        weight: 1
+      - path: Tries_number_miss_2
+        weight: 1
+      - path: Tries_number_miss_3
+        weight: 1
+      - path: Tries_number_miss_4
+        weight: 1
+      - path: Tries_number_miss_5
+        weight: 1
+      - path: Tries_number_miss_6
+        weight: 1
+      - path: Tries_number_miss_7
+        weight: 1
+      - path: Tries_number_miss_8
+        weight: 1
+      - path: Tries_number_miss_9
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: anim_ng_6
+      takeName: Take 001
+      firstFrame: 12
+      lastFrame: 13
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Tries_number_blank
+        weight: 1
+      - path: Tries_number_hit_0
+        weight: 1
+      - path: Tries_number_hit_1
+        weight: 1
+      - path: Tries_number_hit_2
+        weight: 1
+      - path: Tries_number_hit_3
+        weight: 1
+      - path: Tries_number_hit_4
+        weight: 1
+      - path: Tries_number_hit_5
+        weight: 1
+      - path: Tries_number_hit_6
+        weight: 1
+      - path: Tries_number_hit_7
+        weight: 1
+      - path: Tries_number_hit_8
+        weight: 1
+      - path: Tries_number_hit_9
+        weight: 1
+      - path: Tries_number_miss_0
+        weight: 1
+      - path: Tries_number_miss_1
+        weight: 1
+      - path: Tries_number_miss_2
+        weight: 1
+      - path: Tries_number_miss_3
+        weight: 1
+      - path: Tries_number_miss_4
+        weight: 1
+      - path: Tries_number_miss_5
+        weight: 1
+      - path: Tries_number_miss_6
+        weight: 1
+      - path: Tries_number_miss_7
+        weight: 1
+      - path: Tries_number_miss_8
+        weight: 1
+      - path: Tries_number_miss_9
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: anim_ng_7
+      takeName: Take 001
+      firstFrame: 14
+      lastFrame: 15
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Tries_number_blank
+        weight: 1
+      - path: Tries_number_hit_0
+        weight: 1
+      - path: Tries_number_hit_1
+        weight: 1
+      - path: Tries_number_hit_2
+        weight: 1
+      - path: Tries_number_hit_3
+        weight: 1
+      - path: Tries_number_hit_4
+        weight: 1
+      - path: Tries_number_hit_5
+        weight: 1
+      - path: Tries_number_hit_6
+        weight: 1
+      - path: Tries_number_hit_7
+        weight: 1
+      - path: Tries_number_hit_8
+        weight: 1
+      - path: Tries_number_hit_9
+        weight: 1
+      - path: Tries_number_miss_0
+        weight: 1
+      - path: Tries_number_miss_1
+        weight: 1
+      - path: Tries_number_miss_2
+        weight: 1
+      - path: Tries_number_miss_3
+        weight: 1
+      - path: Tries_number_miss_4
+        weight: 1
+      - path: Tries_number_miss_5
+        weight: 1
+      - path: Tries_number_miss_6
+        weight: 1
+      - path: Tries_number_miss_7
+        weight: 1
+      - path: Tries_number_miss_8
+        weight: 1
+      - path: Tries_number_miss_9
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: anim_ng_8
+      takeName: Take 001
+      firstFrame: 16
+      lastFrame: 17
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Tries_number_blank
+        weight: 1
+      - path: Tries_number_hit_0
+        weight: 1
+      - path: Tries_number_hit_1
+        weight: 1
+      - path: Tries_number_hit_2
+        weight: 1
+      - path: Tries_number_hit_3
+        weight: 1
+      - path: Tries_number_hit_4
+        weight: 1
+      - path: Tries_number_hit_5
+        weight: 1
+      - path: Tries_number_hit_6
+        weight: 1
+      - path: Tries_number_hit_7
+        weight: 1
+      - path: Tries_number_hit_8
+        weight: 1
+      - path: Tries_number_hit_9
+        weight: 1
+      - path: Tries_number_miss_0
+        weight: 1
+      - path: Tries_number_miss_1
+        weight: 1
+      - path: Tries_number_miss_2
+        weight: 1
+      - path: Tries_number_miss_3
+        weight: 1
+      - path: Tries_number_miss_4
+        weight: 1
+      - path: Tries_number_miss_5
+        weight: 1
+      - path: Tries_number_miss_6
+        weight: 1
+      - path: Tries_number_miss_7
+        weight: 1
+      - path: Tries_number_miss_8
+        weight: 1
+      - path: Tries_number_miss_9
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: anim_ng_9
+      takeName: Take 001
+      firstFrame: 18
+      lastFrame: 19
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Tries_number_blank
+        weight: 1
+      - path: Tries_number_hit_0
+        weight: 1
+      - path: Tries_number_hit_1
+        weight: 1
+      - path: Tries_number_hit_2
+        weight: 1
+      - path: Tries_number_hit_3
+        weight: 1
+      - path: Tries_number_hit_4
+        weight: 1
+      - path: Tries_number_hit_5
+        weight: 1
+      - path: Tries_number_hit_6
+        weight: 1
+      - path: Tries_number_hit_7
+        weight: 1
+      - path: Tries_number_hit_8
+        weight: 1
+      - path: Tries_number_hit_9
+        weight: 1
+      - path: Tries_number_miss_0
+        weight: 1
+      - path: Tries_number_miss_1
+        weight: 1
+      - path: Tries_number_miss_2
+        weight: 1
+      - path: Tries_number_miss_3
+        weight: 1
+      - path: Tries_number_miss_4
+        weight: 1
+      - path: Tries_number_miss_5
+        weight: 1
+      - path: Tries_number_miss_6
+        weight: 1
+      - path: Tries_number_miss_7
+        weight: 1
+      - path: Tries_number_miss_8
+        weight: 1
+      - path: Tries_number_miss_9
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: anim_hit_0
+      takeName: Take 001
+      firstFrame: 20
+      lastFrame: 21
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Tries_number_blank
+        weight: 1
+      - path: Tries_number_hit_0
+        weight: 1
+      - path: Tries_number_hit_1
+        weight: 1
+      - path: Tries_number_hit_2
+        weight: 1
+      - path: Tries_number_hit_3
+        weight: 1
+      - path: Tries_number_hit_4
+        weight: 1
+      - path: Tries_number_hit_5
+        weight: 1
+      - path: Tries_number_hit_6
+        weight: 1
+      - path: Tries_number_hit_7
+        weight: 1
+      - path: Tries_number_hit_8
+        weight: 1
+      - path: Tries_number_hit_9
+        weight: 1
+      - path: Tries_number_miss_0
+        weight: 1
+      - path: Tries_number_miss_1
+        weight: 1
+      - path: Tries_number_miss_2
+        weight: 1
+      - path: Tries_number_miss_3
+        weight: 1
+      - path: Tries_number_miss_4
+        weight: 1
+      - path: Tries_number_miss_5
+        weight: 1
+      - path: Tries_number_miss_6
+        weight: 1
+      - path: Tries_number_miss_7
+        weight: 1
+      - path: Tries_number_miss_8
+        weight: 1
+      - path: Tries_number_miss_9
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: anim_hit_1
+      takeName: Take 001
+      firstFrame: 22
+      lastFrame: 23
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Tries_number_blank
+        weight: 1
+      - path: Tries_number_hit_0
+        weight: 1
+      - path: Tries_number_hit_1
+        weight: 1
+      - path: Tries_number_hit_2
+        weight: 1
+      - path: Tries_number_hit_3
+        weight: 1
+      - path: Tries_number_hit_4
+        weight: 1
+      - path: Tries_number_hit_5
+        weight: 1
+      - path: Tries_number_hit_6
+        weight: 1
+      - path: Tries_number_hit_7
+        weight: 1
+      - path: Tries_number_hit_8
+        weight: 1
+      - path: Tries_number_hit_9
+        weight: 1
+      - path: Tries_number_miss_0
+        weight: 1
+      - path: Tries_number_miss_1
+        weight: 1
+      - path: Tries_number_miss_2
+        weight: 1
+      - path: Tries_number_miss_3
+        weight: 1
+      - path: Tries_number_miss_4
+        weight: 1
+      - path: Tries_number_miss_5
+        weight: 1
+      - path: Tries_number_miss_6
+        weight: 1
+      - path: Tries_number_miss_7
+        weight: 1
+      - path: Tries_number_miss_8
+        weight: 1
+      - path: Tries_number_miss_9
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: anim_hit_2
+      takeName: Take 001
+      firstFrame: 24
+      lastFrame: 25
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Tries_number_blank
+        weight: 1
+      - path: Tries_number_hit_0
+        weight: 1
+      - path: Tries_number_hit_1
+        weight: 1
+      - path: Tries_number_hit_2
+        weight: 1
+      - path: Tries_number_hit_3
+        weight: 1
+      - path: Tries_number_hit_4
+        weight: 1
+      - path: Tries_number_hit_5
+        weight: 1
+      - path: Tries_number_hit_6
+        weight: 1
+      - path: Tries_number_hit_7
+        weight: 1
+      - path: Tries_number_hit_8
+        weight: 1
+      - path: Tries_number_hit_9
+        weight: 1
+      - path: Tries_number_miss_0
+        weight: 1
+      - path: Tries_number_miss_1
+        weight: 1
+      - path: Tries_number_miss_2
+        weight: 1
+      - path: Tries_number_miss_3
+        weight: 1
+      - path: Tries_number_miss_4
+        weight: 1
+      - path: Tries_number_miss_5
+        weight: 1
+      - path: Tries_number_miss_6
+        weight: 1
+      - path: Tries_number_miss_7
+        weight: 1
+      - path: Tries_number_miss_8
+        weight: 1
+      - path: Tries_number_miss_9
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: anim_hit_3
+      takeName: Take 001
+      firstFrame: 26
+      lastFrame: 27
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Tries_number_blank
+        weight: 1
+      - path: Tries_number_hit_0
+        weight: 1
+      - path: Tries_number_hit_1
+        weight: 1
+      - path: Tries_number_hit_2
+        weight: 1
+      - path: Tries_number_hit_3
+        weight: 1
+      - path: Tries_number_hit_4
+        weight: 1
+      - path: Tries_number_hit_5
+        weight: 1
+      - path: Tries_number_hit_6
+        weight: 1
+      - path: Tries_number_hit_7
+        weight: 1
+      - path: Tries_number_hit_8
+        weight: 1
+      - path: Tries_number_hit_9
+        weight: 1
+      - path: Tries_number_miss_0
+        weight: 1
+      - path: Tries_number_miss_1
+        weight: 1
+      - path: Tries_number_miss_2
+        weight: 1
+      - path: Tries_number_miss_3
+        weight: 1
+      - path: Tries_number_miss_4
+        weight: 1
+      - path: Tries_number_miss_5
+        weight: 1
+      - path: Tries_number_miss_6
+        weight: 1
+      - path: Tries_number_miss_7
+        weight: 1
+      - path: Tries_number_miss_8
+        weight: 1
+      - path: Tries_number_miss_9
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: anim_hit_4
+      takeName: Take 001
+      firstFrame: 28
+      lastFrame: 29
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Tries_number_blank
+        weight: 1
+      - path: Tries_number_hit_0
+        weight: 1
+      - path: Tries_number_hit_1
+        weight: 1
+      - path: Tries_number_hit_2
+        weight: 1
+      - path: Tries_number_hit_3
+        weight: 1
+      - path: Tries_number_hit_4
+        weight: 1
+      - path: Tries_number_hit_5
+        weight: 1
+      - path: Tries_number_hit_6
+        weight: 1
+      - path: Tries_number_hit_7
+        weight: 1
+      - path: Tries_number_hit_8
+        weight: 1
+      - path: Tries_number_hit_9
+        weight: 1
+      - path: Tries_number_miss_0
+        weight: 1
+      - path: Tries_number_miss_1
+        weight: 1
+      - path: Tries_number_miss_2
+        weight: 1
+      - path: Tries_number_miss_3
+        weight: 1
+      - path: Tries_number_miss_4
+        weight: 1
+      - path: Tries_number_miss_5
+        weight: 1
+      - path: Tries_number_miss_6
+        weight: 1
+      - path: Tries_number_miss_7
+        weight: 1
+      - path: Tries_number_miss_8
+        weight: 1
+      - path: Tries_number_miss_9
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: anim_hit_5
+      takeName: Take 001
+      firstFrame: 30
+      lastFrame: 31
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Tries_number_blank
+        weight: 1
+      - path: Tries_number_hit_0
+        weight: 1
+      - path: Tries_number_hit_1
+        weight: 1
+      - path: Tries_number_hit_2
+        weight: 1
+      - path: Tries_number_hit_3
+        weight: 1
+      - path: Tries_number_hit_4
+        weight: 1
+      - path: Tries_number_hit_5
+        weight: 1
+      - path: Tries_number_hit_6
+        weight: 1
+      - path: Tries_number_hit_7
+        weight: 1
+      - path: Tries_number_hit_8
+        weight: 1
+      - path: Tries_number_hit_9
+        weight: 1
+      - path: Tries_number_miss_0
+        weight: 1
+      - path: Tries_number_miss_1
+        weight: 1
+      - path: Tries_number_miss_2
+        weight: 1
+      - path: Tries_number_miss_3
+        weight: 1
+      - path: Tries_number_miss_4
+        weight: 1
+      - path: Tries_number_miss_5
+        weight: 1
+      - path: Tries_number_miss_6
+        weight: 1
+      - path: Tries_number_miss_7
+        weight: 1
+      - path: Tries_number_miss_8
+        weight: 1
+      - path: Tries_number_miss_9
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: anim_hit_6
+      takeName: Take 001
+      firstFrame: 32
+      lastFrame: 33
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Tries_number_blank
+        weight: 1
+      - path: Tries_number_hit_0
+        weight: 1
+      - path: Tries_number_hit_1
+        weight: 1
+      - path: Tries_number_hit_2
+        weight: 1
+      - path: Tries_number_hit_3
+        weight: 1
+      - path: Tries_number_hit_4
+        weight: 1
+      - path: Tries_number_hit_5
+        weight: 1
+      - path: Tries_number_hit_6
+        weight: 1
+      - path: Tries_number_hit_7
+        weight: 1
+      - path: Tries_number_hit_8
+        weight: 1
+      - path: Tries_number_hit_9
+        weight: 1
+      - path: Tries_number_miss_0
+        weight: 1
+      - path: Tries_number_miss_1
+        weight: 1
+      - path: Tries_number_miss_2
+        weight: 1
+      - path: Tries_number_miss_3
+        weight: 1
+      - path: Tries_number_miss_4
+        weight: 1
+      - path: Tries_number_miss_5
+        weight: 1
+      - path: Tries_number_miss_6
+        weight: 1
+      - path: Tries_number_miss_7
+        weight: 1
+      - path: Tries_number_miss_8
+        weight: 1
+      - path: Tries_number_miss_9
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: anim_hit_7
+      takeName: Take 001
+      firstFrame: 34
+      lastFrame: 35
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Tries_number_blank
+        weight: 1
+      - path: Tries_number_hit_0
+        weight: 1
+      - path: Tries_number_hit_1
+        weight: 1
+      - path: Tries_number_hit_2
+        weight: 1
+      - path: Tries_number_hit_3
+        weight: 1
+      - path: Tries_number_hit_4
+        weight: 1
+      - path: Tries_number_hit_5
+        weight: 1
+      - path: Tries_number_hit_6
+        weight: 1
+      - path: Tries_number_hit_7
+        weight: 1
+      - path: Tries_number_hit_8
+        weight: 1
+      - path: Tries_number_hit_9
+        weight: 1
+      - path: Tries_number_miss_0
+        weight: 1
+      - path: Tries_number_miss_1
+        weight: 1
+      - path: Tries_number_miss_2
+        weight: 1
+      - path: Tries_number_miss_3
+        weight: 1
+      - path: Tries_number_miss_4
+        weight: 1
+      - path: Tries_number_miss_5
+        weight: 1
+      - path: Tries_number_miss_6
+        weight: 1
+      - path: Tries_number_miss_7
+        weight: 1
+      - path: Tries_number_miss_8
+        weight: 1
+      - path: Tries_number_miss_9
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: anim_hit_8
+      takeName: Take 001
+      firstFrame: 36
+      lastFrame: 37
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Tries_number_blank
+        weight: 1
+      - path: Tries_number_hit_0
+        weight: 1
+      - path: Tries_number_hit_1
+        weight: 1
+      - path: Tries_number_hit_2
+        weight: 1
+      - path: Tries_number_hit_3
+        weight: 1
+      - path: Tries_number_hit_4
+        weight: 1
+      - path: Tries_number_hit_5
+        weight: 1
+      - path: Tries_number_hit_6
+        weight: 1
+      - path: Tries_number_hit_7
+        weight: 1
+      - path: Tries_number_hit_8
+        weight: 1
+      - path: Tries_number_hit_9
+        weight: 1
+      - path: Tries_number_miss_0
+        weight: 1
+      - path: Tries_number_miss_1
+        weight: 1
+      - path: Tries_number_miss_2
+        weight: 1
+      - path: Tries_number_miss_3
+        weight: 1
+      - path: Tries_number_miss_4
+        weight: 1
+      - path: Tries_number_miss_5
+        weight: 1
+      - path: Tries_number_miss_6
+        weight: 1
+      - path: Tries_number_miss_7
+        weight: 1
+      - path: Tries_number_miss_8
+        weight: 1
+      - path: Tries_number_miss_9
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: anim_hit_9
+      takeName: Take 001
+      firstFrame: 38
+      lastFrame: 39
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Tries_number_blank
+        weight: 1
+      - path: Tries_number_hit_0
+        weight: 1
+      - path: Tries_number_hit_1
+        weight: 1
+      - path: Tries_number_hit_2
+        weight: 1
+      - path: Tries_number_hit_3
+        weight: 1
+      - path: Tries_number_hit_4
+        weight: 1
+      - path: Tries_number_hit_5
+        weight: 1
+      - path: Tries_number_hit_6
+        weight: 1
+      - path: Tries_number_hit_7
+        weight: 1
+      - path: Tries_number_hit_8
+        weight: 1
+      - path: Tries_number_hit_9
+        weight: 1
+      - path: Tries_number_miss_0
+        weight: 1
+      - path: Tries_number_miss_1
+        weight: 1
+      - path: Tries_number_miss_2
+        weight: 1
+      - path: Tries_number_miss_3
+        weight: 1
+      - path: Tries_number_miss_4
+        weight: 1
+      - path: Tries_number_miss_5
+        weight: 1
+      - path: Tries_number_miss_6
+        weight: 1
+      - path: Tries_number_miss_7
+        weight: 1
+      - path: Tries_number_miss_8
+        weight: 1
+      - path: Tries_number_miss_9
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: anim_blank
+      takeName: Take 001
+      firstFrame: 40
+      lastFrame: 41
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Tries_number_blank
+        weight: 1
+      - path: Tries_number_hit_0
+        weight: 1
+      - path: Tries_number_hit_1
+        weight: 1
+      - path: Tries_number_hit_2
+        weight: 1
+      - path: Tries_number_hit_3
+        weight: 1
+      - path: Tries_number_hit_4
+        weight: 1
+      - path: Tries_number_hit_5
+        weight: 1
+      - path: Tries_number_hit_6
+        weight: 1
+      - path: Tries_number_hit_7
+        weight: 1
+      - path: Tries_number_hit_8
+        weight: 1
+      - path: Tries_number_hit_9
+        weight: 1
+      - path: Tries_number_miss_0
+        weight: 1
+      - path: Tries_number_miss_1
+        weight: 1
+      - path: Tries_number_miss_2
+        weight: 1
+      - path: Tries_number_miss_3
+        weight: 1
+      - path: Tries_number_miss_4
+        weight: 1
+      - path: Tries_number_miss_5
+        weight: 1
+      - path: Tries_number_miss_6
+        weight: 1
+      - path: Tries_number_miss_7
+        weight: 1
+      - path: Tries_number_miss_8
+        weight: 1
+      - path: Tries_number_miss_9
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1000
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
