@@ -1041,6 +1041,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8704efadae8f54f07a4758b19e749efc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  testParameters: ?author=Bernard%20Fran%C3%A7ois&company=PreviewLabs
 --- !u!4 &514167985
 Transform:
   m_ObjectHideFlags: 0

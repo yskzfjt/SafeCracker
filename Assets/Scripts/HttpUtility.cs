@@ -46,9 +46,9 @@ public class HttpUtility : MonoBehaviour {
 
     public void Awake ()
     {
-	Application.ExternalEval(		
-				 " UnityObject2.instances[0].getUnity().SendMessage('" + name + "', 'SetRequestParameters', document.location.search);"
-						);	
+// 	Application.ExternalEval(		
+// 				 " UnityObject2.instances[0].getUnity().SendMessage('" + name + "', 'SetRequestParameters', document.location.search);"
+//						);	
 	
 	#if UNITY_EDITOR
 	    SetRequestParameters(testParameters);

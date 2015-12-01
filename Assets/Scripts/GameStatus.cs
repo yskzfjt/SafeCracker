@@ -1,3 +1,5 @@
+#define FORCE_BROWSER_LOCAL
+
 using UnityEngine;
 using System.Collections;
 using System.Collections.Generic;
@@ -124,7 +126,7 @@ public class GameStatus {
 
     //game api
     HttpUtility http = null;
-#if UNITY_EDITOR
+#if (UNITY_EDITOR || FORCE_BROWSER_LOCAL)
     string apiURL = "localhost:8888/GameAPI";
 
     public class RNG {
@@ -483,7 +485,8 @@ public class GameStatus {
 	//これを送るとtokenとcreditBalanceが帰る。
 	data.userID = dummyNames[ (int)(UnityEngine.Random.Range(0,4.9f)) ];
 	data.seq = "poaweoi239d0934";
-#if UNITY_EDITOR
+#if (UNITY_EDITOR || FORCE_BROWSER_LOCAL)
+
 	data.creditBalance = (int)(UnityEngine.Random.Range(300,999));
 	SetTransactionDone();
 	return true;
@@ -493,7 +496,7 @@ public class GameStatus {
 #endif
     }
     public void LoginTransactionDone(){
-#if UNITY_EDITOR
+#if UNITY_EDITOR || FORCE_BROWSER_LOCAL
 #else
  	CommonData cd = DeserializeCommonData( http.GetResponseText() );
 	data = null;
@@ -511,7 +514,7 @@ public class GameStatus {
 	data.tryCount = 0;
 	data.gameCount += 1;
 	ResetCursor();
-#if UNITY_EDITOR
+#if UNITY_EDITOR || FORCE_BROWSER_LOCAL
 	SetTransactionDone();
 	return true;
 #else
@@ -526,7 +529,7 @@ public class GameStatus {
     //TRY Transaction
     ////////////////////////////////////////////////////////////////////
     public bool TryTransaction(){
-#if UNITY_EDITOR
+#if UNITY_EDITOR || FORCE_BROWSER_LOCAL
 	for( int i=0; i<maxDigits; ++i ){
 	    Debug.Log( "TRY " + i );
 	    if( IsCrackedDigitAt( i ) ){
@@ -546,7 +549,7 @@ public class GameStatus {
 #endif
     }
     public void TryTransactionDone(){
-#if UNITY_EDITOR
+#if UNITY_EDITOR || FORCE_BROWSER_LOCAL
 #else
 	CommonData cd = DeserializeCommonData( http.GetResponseText() );
 	data = null;
