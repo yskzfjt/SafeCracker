@@ -494,7 +494,7 @@ public class GameStatus {
 	data.seq = "poaweoi239d0934";
 #if (UNITY_EDITOR || FORCE_BROWSER_LOCAL)
 
-	data.creditBalance = (int)(UnityEngine.Random.Range(300,999)) + 1000;
+	data.creditBalance = (int)(UnityEngine.Random.Range(500,999)) + 8000;
 	SetTransactionDone();
 	return true;
 #else
