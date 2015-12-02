@@ -14,7 +14,7 @@ public class Game  : MonoBehaviour {
 	{" 1st:", " 2nd:",  " 3rd:", " 4th:", " 5th:", " 6th:", "final:"};
     private readonly string betTitleString = "Bet:\n";
     private readonly string rewardAmountTitleString = "Reward Amount:\n$ ";
-    private readonly string rewardTitleString = "Reward Will be:\n$ ";
+    private readonly string rewardTitleString = "Reward:\n$ ";
     private readonly string creditBalanceTitleString = "Credit Balance:\n$ ";
 
 
