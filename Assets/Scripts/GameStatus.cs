@@ -314,12 +314,19 @@ public class GameStatus {
     }
 
     //Digits control
+    public void ExecAutoAtCurrentCursor(){
+	ExecAutoAt( Cursor() );
+	IncCursor();
+    }
+    public void ExecAutoAt( int i ){
+	List<int> candidates = GetCandidates( i );
+	int num = candidates[ (int)UnityEngine.Random.Range(0, candidates.Count-1) ];
+	SetDigitAt( i, num );
+    }
     public void ExecAuto(){
 	for( int i=0; i<maxDigits; ++i ){
 	    if( data.crackedDigits[ i ] < 0 ){
-		List<int> candidates = GetCandidates( i );
-		int num = candidates[ (int)UnityEngine.Random.Range(0, candidates.Count-1) ];
-		SetDigitAt( i, num );
+		ExecAutoAt( i );
 	    }
 	}
 	cursorPos = maxDigits;
@@ -487,7 +494,7 @@ public class GameStatus {
 	data.seq = "poaweoi239d0934";
 #if (UNITY_EDITOR || FORCE_BROWSER_LOCAL)
 
-	data.creditBalance = (int)(UnityEngine.Random.Range(300,999));
+	data.creditBalance = (int)(UnityEngine.Random.Range(300,999)) + 1000;
 	SetTransactionDone();
 	return true;
 #else

@@ -28,8 +28,15 @@ public class Game  : MonoBehaviour {
     private GameObject devicePanel;
     private GameObject messagePanel;
     private GameObject messageText;
+    private GameObject fullAutoButtonText;
+    private GameObject debugPanelText;
 
     private int hitCount;
+    private bool fullAuto = false;
+
+    private int[] wins = null;
+    private int failCount,tryCount;
+    private int spend=0,earn=0;
     
     public Game(){
     }
@@ -56,7 +63,16 @@ public class Game  : MonoBehaviour {
 	rewardText = GameObject.Find( "RewardText" );
 	rewardAmountText = GameObject.Find( "RewardAmountText" );
 
+	fullAutoButtonText = GameObject.Find( "FullAutoButtonText" );
+
+	debugPanelText = GameObject.Find( "DebugPanelText" );
+
 	status.SetHttpUtility( GameObject.Find("Http").GetComponent<HttpUtility>() );
+
+	wins = new int[ status.maxTries ];
+	for( int i=0; i<status.maxTries; ++i ){
+	    wins[i] = 0;
+	}
     }
 
     void Update(){
@@ -115,12 +131,28 @@ public class Game  : MonoBehaviour {
     public void Select(){
 	messagePanel.SetActive(false);
 	devicePanel.SetActive(true);
-	if( status.phaseStatus == 1 ){
-	    //ExecButtonでTRY。
-	    status.ChangePhase( GameStatus.PHASE.TRY );
-	}else if( status.phaseStatus == 2 ){
-	    //GiveUpButtonでNEW_GAME。
-	    status.ChangePhase( GameStatus.PHASE.GIVE_UP );
+
+	if( fullAuto ){
+	    if( status.phaseStatus == 2 ){
+		//GiveUpButtonでNEW_GAME。
+		status.ChangePhase( GameStatus.PHASE.GIVE_UP );
+		IncFail();
+	    }else if( (status.phaseCounter % 30) == 0 ){
+		if( status.IsDigitsFull() ){
+		    status.ChangePhase( GameStatus.PHASE.TRY );
+		}else{
+		    status.ExecAutoAtCurrentCursor();
+		}
+	    }
+	}else{
+	    if( status.phaseStatus == 1 ){
+		//ExecButtonでTRY。
+		status.ChangePhase( GameStatus.PHASE.TRY );
+	    }else if( status.phaseStatus == 2 ){
+		//GiveUpButtonでNEW_GAME。
+		status.ChangePhase( GameStatus.PHASE.GIVE_UP );
+		IncFail();
+	    }
 	}
     }
     public void Try(){
@@ -130,6 +162,7 @@ public class Game  : MonoBehaviour {
 	case 0://リクエスト発行。
 	    status.TryTransaction();
 	    ++status.phaseStatus;
+	    spend += status.Bet();
 	    break;
 	case 1://レスポンス待ち。
 	    if( status.IsTransactionSuccess() ){
@@ -152,34 +185,51 @@ public class Game  : MonoBehaviour {
 	status.ChangePhase( GameStatus.PHASE.NEW_GAME );
     }
     public void Result(){
-	messagePanel.SetActive(true);
-	devicePanel.SetActive(true);
 	if( status.phaseStatus == 0 ){
 	    ++status.phaseStatus;
 	    int old = hitCount;
 	    hitCount = status.GetCrackedDigitsCount();
 	    messageText.GetComponent<Text>().text = " " + (hitCount - old) + " Hits";
 	}else {
-	    if( status.phaseCounter > 30 ){
+	    if( status.phaseCounter > 15 ){
+		messagePanel.SetActive(true);
+		devicePanel.SetActive(true);
+	    }
+	    if( status.phaseCounter > 45 ){
 		status.StartNextTry();
 		status.ChangePhase( GameStatus.PHASE.SELECT );
 	    }
 	}
     }
+    private void IncFail(){
+	++failCount;
+	++tryCount;
+    }
+    private void IncWin(){
+	wins[ status.TryCount() ] += 1;
+	++tryCount;
+    }
     public void Finale(){
-	messagePanel.SetActive(true);
-	devicePanel.SetActive(true);
-	messageText.GetComponent<Text>().text = YouFailedString;
+	if( status.phaseCounter > 60 ){
+	    messagePanel.SetActive(true);
+	    devicePanel.SetActive(true);
+	    messageText.GetComponent<Text>().text = YouFailedString;
+	}
 	if( status.phaseCounter > 120 ){
 	    status.ChangePhase( GameStatus.PHASE.NEW_GAME );
+	    IncFail();
 	}
     }
     public void Win(){
-	messagePanel.SetActive(true);
-	devicePanel.SetActive(true);
-	messageText.GetComponent<Text>().text = YouWinString;
+	if( status.phaseCounter > 60 ){
+	    messagePanel.SetActive(true);
+	    devicePanel.SetActive(true);
+	    messageText.GetComponent<Text>().text = YouWinString;
+	}
 	if( status.phaseCounter > 120 ){
 	    status.ChangePhase( GameStatus.PHASE.NEW_GAME );
+	    IncWin();
+	    earn += status.Reward();
 	}
     }
     public void Error(){
@@ -295,6 +345,23 @@ public class Game  : MonoBehaviour {
 	//rewardAmountText.GetComponent<Text>().text = rewardAmountTitleString + status.Reward();
 	rewardText.GetComponent<Text>().text = rewardTitleString + status.Reward();
 
+
+
+	//debug
+	str = "Statistics:\n\n";
+	str += ("1st wins:  " + wins[0] + "\n");
+	str += ("2nd wins:  " + wins[1] + "\n");
+	str += ("3rd wins:  " + wins[2] + "\n");
+	str += ("4th wins:  " + wins[3] + "\n");
+	str += ("5th wins:  " + wins[4] + "\n");
+	str += ("6th wins:  " + wins[5] + "\n");
+	str += ("fin wins:  " + wins[6] + "\n");
+	str += ("fails   :  " + failCount + "\n");
+	str += ("rounds  :  " + tryCount + "\n\n");
+	str += ("earned  :  " + earn + "\n" );
+	str += ("spent   :  " + spend + "\n" );
+	debugPanelText.GetComponent<Text>().text = str;
+
 	drawReq = false;
     }
 
@@ -340,6 +407,15 @@ public class Game  : MonoBehaviour {
 
     public void OnGiveUp(){
 	status.phaseStatus = 2;
+    }
+
+    public void OnFullAuto(){
+	fullAuto = !fullAuto;
+	if( fullAuto ){
+	    fullAutoButtonText.GetComponent<Text>().text = "Play Mode:\nFull Auto";
+	}else{
+	    fullAutoButtonText.GetComponent<Text>().text = "Play Mode:\nManual";
+	}
     }
 
 
