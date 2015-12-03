@@ -137,7 +137,7 @@ public class Game  : MonoBehaviour {
 		//GiveUpButtonでNEW_GAME。
 		status.ChangePhase( GameStatus.PHASE.GIVE_UP );
 		IncFail();
-	    }else if( (status.phaseCounter % 30) == 0 ){
+	    }else if( (status.phaseCounter % 5) == 0 ){
 		if( status.IsDigitsFull() ){
 		    status.ChangePhase( GameStatus.PHASE.TRY );
 		}else{
@@ -385,12 +385,13 @@ public class Game  : MonoBehaviour {
 	}
     }
 
-    public void OnAutoButon(){
-	status.ExecAuto();
-    }
-
     public void OnExecButon(){
 	if( status.IsDigitsFull() ) status.phaseStatus = 1;
+    }
+
+    public void OnAutoButon(){
+	status.ExecAuto();
+	OnExecButon();
     }
 
     public void OnDigitButton( int no ){
