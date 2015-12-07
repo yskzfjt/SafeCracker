@@ -1,9 +1,57 @@
 fileFormatVersion: 2
 guid: 8fc4d4964ba383d4aaba25d2bf6e38bb
-timeCreated: 1448875623
+timeCreated: 1449128273
 licenseType: Pro
 TextureImporter:
-  fileIDToRecycleName: {}
+  fileIDToRecycleName:
+    21300000: nunbers_A_0
+    21300002: nunbers_A_1
+    21300004: nunbers_A_2
+    21300006: nunbers_A_3
+    21300008: nunbers_A_4
+    21300010: nunbers_A_5
+    21300012: nunbers_A_6
+    21300014: nunbers_A_7
+    21300016: nunbers_A_8
+    21300018: nunbers_A_9
+    21300020: nunbers_A_10
+    21300022: nunbers_A_11
+    21300024: nunbers_A_12
+    21300026: nunbers_A_13
+    21300028: nunbers_A_14
+    21300030: nunbers_A_15
+    21300032: nunbers_A_16
+    21300034: nunbers_A_17
+    21300036: nunbers_A_18
+    21300038: nunbers_A_19
+    21300040: nunbers_A_20
+    21300042: nunbers_A_21
+    21300044: nunbers_A_22
+    21300046: nunbers_A_23
+    21300048: nunbers_A_24
+    21300050: nunbers_A_25
+    21300052: nunbers_A_26
+    21300054: nunbers_A_27
+    21300056: nunbers_A_28
+    21300058: nunbers_A_29
+    21300060: nunbers_A_30
+    21300062: nunbers_A_31
+    21300064: nunbers_A_32
+    21300066: nunbers_A_33
+    21300068: nunbers_A_34
+    21300070: nunbers_A_35
+    21300072: nunbers_A_36
+    21300074: nunbers_A_37
+    21300076: nunbers_A_38
+    21300078: nunbers_A_39
+    21300080: nunbers_A_40
+    21300082: nunbers_A_41
+    21300084: nunbers_A_42
+    21300086: nunbers_A_43
+    21300088: nunbers_A_44
+    21300090: nunbers_A_45
+    21300092: nunbers_A_46
+    21300094: nunbers_A_47
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -30,14 +78,14 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     filterMode: -1
-    aniso: -1
+    aniso: 16
     mipBias: -1
     wrapMode: 1
   nPOTScale: 0
   lightmap: 0
   rGBM: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -48,7 +96,487 @@ TextureImporter:
   textureType: 8
   buildTargetSettings: []
   spriteSheet:
-    sprites: []
+    sprites:
+    - name: nunbers_A_0
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 200
+        width: 40
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: nunbers_A_1
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 200
+        width: 34
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: nunbers_A_2
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 200
+        width: 39
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: nunbers_A_3
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 195
+        width: 39
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: nunbers_A_4
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 199
+        width: 42
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: nunbers_A_5
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 195
+        width: 39
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: nunbers_A_6
+      rect:
+        serializedVersion: 2
+        x: 491
+        y: 200
+        width: 40
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: nunbers_A_7
+      rect:
+        serializedVersion: 2
+        x: 573
+        y: 199
+        width: 38
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: nunbers_A_8
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 200
+        width: 40
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: nunbers_A_9
+      rect:
+        serializedVersion: 2
+        x: 727
+        y: 195
+        width: 40
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: nunbers_A_10
+      rect:
+        serializedVersion: 2
+        x: 808
+        y: 194
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: nunbers_A_11
+      rect:
+        serializedVersion: 2
+        x: 888
+        y: 200
+        width: 19
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: nunbers_A_12
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 136
+        width: 41
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: nunbers_A_13
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 136
+        width: 33
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: nunbers_A_14
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 136
+        width: 40
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: nunbers_A_15
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 131
+        width: 39
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: nunbers_A_16
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 135
+        width: 42
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: nunbers_A_17
+      rect:
+        serializedVersion: 2
+        x: 413
+        y: 131
+        width: 39
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: nunbers_A_18
+      rect:
+        serializedVersion: 2
+        x: 492
+        y: 136
+        width: 41
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: nunbers_A_19
+      rect:
+        serializedVersion: 2
+        x: 573
+        y: 135
+        width: 38
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: nunbers_A_20
+      rect:
+        serializedVersion: 2
+        x: 651
+        y: 136
+        width: 39
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: nunbers_A_21
+      rect:
+        serializedVersion: 2
+        x: 728
+        y: 131
+        width: 40
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: nunbers_A_22
+      rect:
+        serializedVersion: 2
+        x: 811
+        y: 130
+        width: 20
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: nunbers_A_23
+      rect:
+        serializedVersion: 2
+        x: 890
+        y: 136
+        width: 19
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: nunbers_A_24
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 73
+        width: 42
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: nunbers_A_25
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 74
+        width: 38
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: nunbers_A_26
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 74
+        width: 41
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: nunbers_A_27
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 68
+        width: 40
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: nunbers_A_28
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 72
+        width: 43
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: nunbers_A_29
+      rect:
+        serializedVersion: 2
+        x: 412
+        y: 68
+        width: 40
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: nunbers_A_30
+      rect:
+        serializedVersion: 2
+        x: 492
+        y: 73
+        width: 41
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: nunbers_A_31
+      rect:
+        serializedVersion: 2
+        x: 572
+        y: 72
+        width: 39
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: nunbers_A_32
+      rect:
+        serializedVersion: 2
+        x: 650
+        y: 73
+        width: 41
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: nunbers_A_33
+      rect:
+        serializedVersion: 2
+        x: 728
+        y: 68
+        width: 41
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: nunbers_A_34
+      rect:
+        serializedVersion: 2
+        x: 808
+        y: 67
+        width: 22
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: nunbers_A_35
+      rect:
+        serializedVersion: 2
+        x: 887
+        y: 73
+        width: 20
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: nunbers_A_36
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 6
+        width: 53
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: nunbers_A_37
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 7
+        width: 47
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: nunbers_A_38
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 7
+        width: 54
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: nunbers_A_39
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 1
+        width: 53
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: nunbers_A_40
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 5
+        width: 55
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: nunbers_A_41
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 1
+        width: 53
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: nunbers_A_42
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 6
+        width: 54
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: nunbers_A_43
+      rect:
+        serializedVersion: 2
+        x: 563
+        y: 5
+        width: 51
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: nunbers_A_44
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 6
+        width: 53
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: nunbers_A_45
+      rect:
+        serializedVersion: 2
+        x: 719
+        y: 1
+        width: 53
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: nunbers_A_46
+      rect:
+        serializedVersion: 2
+        x: 798
+        y: 0
+        width: 34
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: nunbers_A_47
+      rect:
+        serializedVersion: 2
+        x: 877
+        y: 6
+        width: 33
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
   spritePackingTag: 
   userData: 
   assetBundleName: 

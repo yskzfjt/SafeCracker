@@ -1,0 +1,225 @@
+fileFormatVersion: 2
+guid: f9669b7dfaab53b4ab0a81ccfa4dcbd0
+timeCreated: 1449483040
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: ori_yoko_a
+    100004: ori_yoko_b
+    100006: ori_yoko_c
+    100008: ori_yoko_d
+    100010: ori_yoko_e
+    100012: ori_yoko_f
+    400000: //RootNode
+    400002: ori_yoko_a
+    400004: ori_yoko_b
+    400006: ori_yoko_c
+    400008: ori_yoko_d
+    400010: ori_yoko_e
+    400012: ori_yoko_f
+    2300000: ori_yoko_a
+    2300002: ori_yoko_b
+    2300004: ori_yoko_c
+    2300006: ori_yoko_d
+    2300008: ori_yoko_e
+    2300010: ori_yoko_f
+    3300000: ori_yoko_a
+    3300002: ori_yoko_b
+    3300004: ori_yoko_c
+    3300006: ori_yoko_d
+    3300008: ori_yoko_e
+    3300010: ori_yoko_f
+    4300000: ori_yoko_a
+    4300002: ori_yoko_b
+    4300004: ori_yoko_c
+    4300006: ori_yoko_d
+    4300008: ori_yoko_e
+    4300010: ori_yoko_f
+    7400000: anim_in_stop
+    7400002: anim_out
+    7400004: anim_out_stop
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: anim_in_stop
+      takeName: Take 001
+      firstFrame: 60
+      lastFrame: 61
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: ori_yoko_a
+        weight: 1
+      - path: ori_yoko_b
+        weight: 1
+      - path: ori_yoko_c
+        weight: 1
+      - path: ori_yoko_d
+        weight: 1
+      - path: ori_yoko_e
+        weight: 1
+      - path: ori_yoko_f
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: anim_out
+      takeName: Take 001
+      firstFrame: 61
+      lastFrame: 120
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: ori_yoko_a
+        weight: 1
+      - path: ori_yoko_b
+        weight: 1
+      - path: ori_yoko_c
+        weight: 1
+      - path: ori_yoko_d
+        weight: 1
+      - path: ori_yoko_e
+        weight: 1
+      - path: ori_yoko_f
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: anim_out_stop
+      takeName: Take 001
+      firstFrame: 120
+      lastFrame: 120
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: ori_yoko_a
+        weight: 1
+      - path: ori_yoko_b
+        weight: 1
+      - path: ori_yoko_c
+        weight: 1
+      - path: ori_yoko_d
+        weight: 1
+      - path: ori_yoko_e
+        weight: 1
+      - path: ori_yoko_f
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1000
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

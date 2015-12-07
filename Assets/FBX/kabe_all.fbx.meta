@@ -1,0 +1,187 @@
+fileFormatVersion: 2
+guid: 124282eba74dda2499494f8249ccb8e7
+timeCreated: 1449480634
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: _kabe_mae
+    100002: _kabe_usiro
+    100004: a
+    100006: a 1
+    100008: b
+    100010: b 1
+    100012: c
+    100014: c 1
+    100016: d
+    100018: d 1
+    100020: e
+    100022: f
+    100024: //RootNode
+    100026: ori_tate_all
+    100028: ori_yoko_all
+    100030: ori_tate_a
+    100032: ori_tate_b
+    100034: ori_tate_c
+    100036: ori_tate_d
+    100038: ori_yoko_a
+    100040: ori_yoko_b
+    100042: ori_yoko_c
+    100044: ori_yoko_d
+    100046: ori_yoko_e
+    100048: ori_yoko_f
+    400000: _kabe_mae
+    400002: _kabe_usiro
+    400004: a
+    400006: a 1
+    400008: b
+    400010: b 1
+    400012: c
+    400014: c 1
+    400016: d
+    400018: d 1
+    400020: e
+    400022: f
+    400024: //RootNode
+    400026: ori_tate_all
+    400028: ori_yoko_all
+    400030: ori_tate_a
+    400032: ori_tate_b
+    400034: ori_tate_c
+    400036: ori_tate_d
+    400038: ori_yoko_a
+    400040: ori_yoko_b
+    400042: ori_yoko_c
+    400044: ori_yoko_d
+    400046: ori_yoko_e
+    400048: ori_yoko_f
+    2300000: _kabe_mae
+    2300002: _kabe_usiro
+    2300004: a
+    2300006: a 1
+    2300008: b
+    2300010: b 1
+    2300012: c
+    2300014: c 1
+    2300016: d
+    2300018: d 1
+    2300020: e
+    2300022: f
+    2300024: ori_tate_a
+    2300026: ori_tate_b
+    2300028: ori_tate_c
+    2300030: ori_tate_d
+    2300032: ori_yoko_a
+    2300034: ori_yoko_b
+    2300036: ori_yoko_c
+    2300038: ori_yoko_d
+    2300040: ori_yoko_e
+    2300042: ori_yoko_f
+    3300000: _kabe_mae
+    3300002: _kabe_usiro
+    3300004: a
+    3300006: a 1
+    3300008: b
+    3300010: b 1
+    3300012: c
+    3300014: c 1
+    3300016: d
+    3300018: d 1
+    3300020: e
+    3300022: f
+    3300024: ori_tate_a
+    3300026: ori_tate_b
+    3300028: ori_tate_c
+    3300030: ori_tate_d
+    3300032: ori_yoko_a
+    3300034: ori_yoko_b
+    3300036: ori_yoko_c
+    3300038: ori_yoko_d
+    3300040: ori_yoko_e
+    3300042: ori_yoko_f
+    4300000: _kabe_usiro
+    4300002: a
+    4300004: b
+    4300006: c
+    4300008: d
+    4300010: a
+    4300012: b
+    4300014: c
+    4300016: d
+    4300018: e
+    4300020: f
+    4300022: _kabe_mae
+    4300024: ori_tate_a
+    4300026: ori_tate_b
+    4300028: ori_tate_c
+    4300030: ori_tate_d
+    4300032: ori_yoko_a
+    4300034: ori_yoko_b
+    4300036: ori_yoko_c
+    4300038: ori_yoko_d
+    4300040: ori_yoko_e
+    4300042: ori_yoko_f
+    7400000: Take 001
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1000
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -25,6 +25,7 @@ ModelImporter:
     7400000: Bet_up_default
     7400002: Bet_up_mouseover
     7400004: Bet_up_click
+    7400006: aaa
     9500000: //RootNode
   materials:
     importMaterials: 1
